@@ -36,3 +36,5 @@ Route::get('/doc/vue', 'DocController@vue');
 Route::get('/doc/sass', 'DocController@sass');
 Route::get('/doc/grunt', 'DocController@grunt');
 
+
+Route::get('/laraveldemo/l_view', 'LaravelDemoController@l_view');

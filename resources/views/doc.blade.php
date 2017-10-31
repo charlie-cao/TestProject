@@ -1,67 +1,6 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>试验田</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-<body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">开启导航</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">AI EDU</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="#">项目</a></li>
-                <li class="active"><a href="#">试验场 <span class="sr-only">(current)</span></a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">发现 <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">提问</a></li>
-                        <li><a href="#">工作</a></li>
-                        <li><a href="#">成员</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">认证</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">友情链接</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <form class="navbar-form navbar-left">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="问点什么呢">
-                </div>
-                <button type="submit" class="btn btn-default">搜索</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">关于</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">我 <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Charlie</a></li>
-                        <li><a href="#">通知</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">退出</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+@extends('layouts.app')
+
+@section('content')
 <div class="container">
     <div class="blog-header">
         <h1 class="blog-title">2018 WEB技术试验场</h1>
@@ -78,21 +17,66 @@
 3。提供各种新技术的试验文档。
 4。创建讨论区，讨论一套真正开放和便捷的开发辅助站点。
 </pre>
-            <h4>重点项目</h4>
-            <ol>
-                <li>持续集成</li>
-                <li>自动化测试</li>
-                <li>文档自动分析</li>
-                <li>系统日志</li>
-                <li>分布式系统</li>
-                <li>大数据接口</li>
-                <li>人工智能接口</li>
-                <li>IDE使用</li>
-                <li>团队管理技巧</li>
-                <li>源码管理技巧</li>
-                <li>已有资源接入</li>
-                <li>MAC合上也没有问题</li>
-            </ol>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>Laravel特性</h4>
+                    <ol>
+                        <li><a target="_blank" href="{{ asset('laraveldemo/l_view') }}">模版</a></li>
+                        <li>工作流</li>
+                        <li>路由</li>
+                        <li>控制器</li>
+                        <li>数据层</li>
+                    </ol>
+                </div>
+                <div class="col-sm-4">
+                    <h4>前端特性</h4>
+                    <ol>
+                        <li>前端工作流</li>
+                        <li>VUE单页程序</li>
+                        <li>好用的模版</li>
+                        <li>php7上传进度</li>
+                    </ol>
+                </div>
+                <div class="col-sm-4">
+                    <h4>重点话题</h4>
+                    <ol>
+                        <li>持续集成</li>
+                        <li>自动化测试</li>
+                        <li>文档自动分析</li>
+                        <li>系统日志</li>
+                        <li>分布式系统</li>
+                        <li>大数据接口</li>
+                        <li>人工智能接口</li>
+                        <li>IDE使用</li>
+                        <li>团队管理技巧</li>
+                        <li>源码管理技巧</li>
+                        <li>已有资源接入</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>开发</h4>
+                    <ol>
+                        <li>工具</li>
+                        <li>最佳实践</li>
+                    </ol>
+                </div>
+                <div class="col-sm-4">
+                    <h4>性能</h4>
+                    <ol>
+                        <li>工具</li>
+                        <li>最佳实践</li>
+                    </ol>
+                </div>
+                <div class="col-sm-4">
+                    <h4>协作</h4>
+                    <ol>
+                        <li>工具</li>
+                        <li>最佳实践</li>
+                    </ol>
+                </div>
+            </div>
             <h4>日志</h4>
             <ol>
                 <li>解决mac下没有安装xcode，但是在larave下npm install 时需要安装 xcode问题的方法 2017/10/31</li>
@@ -107,7 +91,7 @@
                 <li>格式化 : alt+command+l</li>
                 <li>多行编辑 : 按住Alt键，再单击要编辑的位置。</li>
                 <li>插入模版 : Settings>>Editor>>Live Templates $ENV_LOCALE$ date()</li>
-                <li>删除空行 : command+r 选中 Match Case和Regex 搜索^\n  > 【Replace all】</li>
+                <li>删除空行 : command+r 选中 Match Case 和 Regex 搜索^\n  > 【Replace all】</li>
                 <li>Ctrl + G : 跳到当前打开文件的行，输入格式（行数:列数）</li>
                 <li>Ctrl + E : 打开最近编辑的文件列表</li>
                 <li>Ctrl + P : 显示函数的参数信息</li>
@@ -175,10 +159,15 @@
                 <li><a target="_blank" href="https://psr.phphub.org/">PHP7 规范</a></li>
                 <li><a target="_blank" href="http://www.appinn.com/markdown/index.html">Markdown</a></li>
             </ol>
+            <h4>
+                建议和意见
+            </h4>
+            <ol>
+                <li>Admin:Charlie</li>
+                <li>Email:charlie19817@gmail.com</li>
+                <li>QQ:964870916</li>
+            </ol>
         </div>
     </div>
 </div>
-<!-- Scripts -->
-<script src="{{ asset('js/app.js') }}"></script>
-</body>
-</html>
+@stop
