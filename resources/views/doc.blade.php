@@ -32,7 +32,7 @@
                     <h4>前端特性</h4>
                     <ol>
                         <li>前端工作流</li>
-                        <li>VUE单页程序</li>
+                        <li><a target="_blank" href="laraveldemo/l_vue">VUE单页程序</a></li>
                         <li>好用的模版</li>
                         <li>php7上传进度</li>
                     </ol>
@@ -143,30 +143,8 @@
             </ul>
         </div>
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-            <h4>文档区 (2017/10/31)</h4>
-            <ol>
-                <li><a target="_blank" href="/laravel55/docs/laravel55/docs/5.5.html">Laravel 5.5</a></li>
-                <li><a target="_blank" href="http://www.phpcomposer.com/">Composer</a></li>
-                <li><a target="_blank" href="https://cn.vuejs.org/v2/guide/index.html">Vue</a></li>
-                <li><a target="_blank" href="https://doc.react-china.org/">React</a></li>
-                <li><a target="_blank" href="https://www.sass.hk/">Sass</a></li>
-                <li><a target="_blank" href="http://v3.bootcss.com/">Bootstrap 3</a></li>
-                <li><a target="_blank" href="http://www.gruntjs.net/">Grunt</a></li>
-                <li><a target="_blank" href="https://doc.webpack-china.org/">Webpack</a></li>
-                <li><a target="_blank" href="http://www.redis.net.cn/">Redis</a></li>
-                <li><a target="_blank" href="http://git.oschina.net/progit/">Git</a></li>
-                <li><a target="_blank" href="http://www.w3school.com.cn/tags/index.asp">HTML5</a></li>
-                <li><a target="_blank" href="https://psr.phphub.org/">PHP7 规范</a></li>
-                <li><a target="_blank" href="http://www.appinn.com/markdown/index.html">Markdown</a></li>
-            </ol>
-            <h4>
-                建议和意见
-            </h4>
-            <ol>
-                <li>Admin:Charlie</li>
-                <li>Email:charlie19817@gmail.com</li>
-                <li>QQ:964870916</li>
-            </ol>
+            @include('block.doclist')
+            @include('block.suggest')
         </div>
     </div>
 </div>

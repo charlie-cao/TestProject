@@ -9,16 +9,63 @@
     <div class="row">
         <div class="col-sm-8 blog-main">
             <ol>
-            <li>    Laravel 的 Blade 模板引擎#</li>
-            <li>    简介</li>
-            <li>    模板继承</li>
+            <li>    模板继承
+                @@section 命令定义了视图的一部分内容，而 @@yield 指令是用来显示指定部分的内容
+                @yield('title')
+
+                @section('sidebar')
+                    这是主布局的侧边栏。
+                @show
+
+                @yield('content')
+
+
+            </li>
             <li>    定义布局</li>
             <li>    继承布局</li>
-            <li>    Components & Slots</li>
-            <li>    显示数据</li>
+            <li>    Components & Slots
+                @component('alert')
+                    @slot('title')
+                        Forbidden
+                    @endslot
+
+                    你没有权限访问这个资源！
+                    这是获取 alert.blade.php 中的组件 通过
+                @endcomponent
+            </li>
+            <li>    显示数据
+                Hello, {{ $name }}.
+                The current UNIX timestamp is {{ time() }}.
+                显示未转义的数据 Hello, {!! $name !!}.
+
+                    var app = @json($ary)
+
+                <?php echo json_encode($ary); ?>
+
+
+                不转译显示
+                <h1>Laravel</h1>
+
+                Hello, @{{ name }}.
+
+                @verbatim
+                    <div class="container">
+                        Hello, {{ name }}.
+                    </div>
+                @endverbatim
+
+            </li>
             <li>    Blade & JavaScript 框架</li>
             <li>    流程控制</li>
-            <li>    If 语句</li>
+            <li>    If 语句
+                @if (count($records) === 1)
+                    我有一条记录！
+                @elseif (count($records) > 1)
+                    我有多条记录！
+                @else
+                    我没有任何记录！
+                @endif
+            </li>
             <li>    Switch 语句</li>
             <li>    循环</li>
             <li>    循环变量</li>
@@ -35,30 +82,8 @@
 
         </div>
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-            <h4>文档区 (2017/10/31)</h4>
-            <ol>
-                <li><a target="_blank" href="/laravel55/docs/laravel55/docs/5.5.html">Laravel 5.5</a></li>
-                <li><a target="_blank" href="http://www.phpcomposer.com/">Composer</a></li>
-                <li><a target="_blank" href="https://cn.vuejs.org/v2/guide/index.html">Vue</a></li>
-                <li><a target="_blank" href="https://doc.react-china.org/">React</a></li>
-                <li><a target="_blank" href="https://www.sass.hk/">Sass</a></li>
-                <li><a target="_blank" href="http://v3.bootcss.com/">Bootstrap 3</a></li>
-                <li><a target="_blank" href="http://www.gruntjs.net/">Grunt</a></li>
-                <li><a target="_blank" href="https://doc.webpack-china.org/">Webpack</a></li>
-                <li><a target="_blank" href="http://www.redis.net.cn/">Redis</a></li>
-                <li><a target="_blank" href="http://git.oschina.net/progit/">Git</a></li>
-                <li><a target="_blank" href="http://www.w3school.com.cn/tags/index.asp">HTML5</a></li>
-                <li><a target="_blank" href="https://psr.phphub.org/">PHP7 规范</a></li>
-                <li><a target="_blank" href="http://www.appinn.com/markdown/index.html">Markdown</a></li>
-            </ol>
-            <h4>
-                建议和意见
-            </h4>
-            <ol>
-                <li>Admin:Charlie</li>
-                <li>Email:charlie19817@gmail.com</li>
-                <li>QQ:964870916</li>
-            </ol>
+            @include('block.doclist')
+            @include('block.suggest')
         </div>
     </div>
 </div>

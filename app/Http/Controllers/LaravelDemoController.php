@@ -21,9 +21,18 @@ class LaravelDemoController extends Controller
 
     public function l_view()
     {
-        return view('laravel_demo.l_view');
+        $ary = ['a'=>'a','b'=>'b'];
+        return view('laravel_demo.l_view', ['name' => 'Samantha',
+            'ary'=>$ary,'records'=>1]);
     }
 
+
+    public function l_vue()
+    {
+        $ary = ['a'=>'a','b'=>'b'];
+        return view('laravel_demo.l_vue', ['name' => 'Samantha',
+            'ary'=>$ary,'records'=>1]);
+    }
     public function sass()
     {
         return view('sass');
