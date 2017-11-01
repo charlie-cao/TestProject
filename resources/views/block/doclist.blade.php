@@ -2,7 +2,8 @@
 <ol>
     <li><a target="_blank" href="/laravel55/docs/laravel55/docs/5.5.html">Laravel 5.5</a></li>
     <li><a target="_blank" href="http://www.phpcomposer.com/">Composer</a></li>
-    <li><a target="_blank" href="https://cn.vuejs.org/v2/guide/index.html">Vue</a></li>
+    <li><a target="_blank" href="https://cn.vuejs.org/v2/guide/index.html">Vue.js</a></li>
+    <li><a target="_blank" href="https://router.vuejs.org/zh-cn/index.html">vue-router 2</a></li>
     <li><a target="_blank" href="https://doc.react-china.org/">React</a></li>
     <li><a target="_blank" href="https://www.sass.hk/">Sass</a></li>
     <li><a target="_blank" href="http://v3.bootcss.com/">Bootstrap 3</a></li>
