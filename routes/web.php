@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'DocController@index');
 
 
 Route::get('/user', 'UsersController@index');
@@ -41,3 +39,11 @@ Route::get('/laraveldemo/l_view', 'LaravelDemoController@l_view');
 Route::get('/laraveldemo/l_vue', 'LaravelDemoController@l_vue');
 Route::get('/laraveldemo/l_cache', 'LaravelDemoController@l_cache');
 Route::get('/laraveldemo/l_db', 'LaravelDemoController@l_db');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
