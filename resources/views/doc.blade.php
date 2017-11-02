@@ -21,11 +21,11 @@
                 <div class="col-sm-4">
                     <h4>Laravel特性</h4>
                     <ol>
-                        <li><a target="_blank" href="{{ asset('laraveldemo/l_view') }}">模版</a></li>
                         <li>工作流</li>
+                        <li><a target="_blank" href="{{ asset('laraveldemo/l_view') }}">模版</a></li>
                         <li>路由</li>
                         <li>控制器</li>
-                        <li>数据层</li>
+                        <li><a target="_blank" href="laraveldemo/l_db">数据层</a></li>
                         <li><a target="_blank" href="laraveldemo/l_cache">Cache</a></li>
                     </ol>
                 </div>

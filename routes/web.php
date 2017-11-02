@@ -40,3 +40,4 @@ Route::get('/doc/grunt', 'DocController@grunt');
 Route::get('/laraveldemo/l_view', 'LaravelDemoController@l_view');
 Route::get('/laraveldemo/l_vue', 'LaravelDemoController@l_vue');
 Route::get('/laraveldemo/l_cache', 'LaravelDemoController@l_cache');
+Route::get('/laraveldemo/l_db', 'LaravelDemoController@l_db');
