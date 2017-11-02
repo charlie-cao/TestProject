@@ -27,6 +27,13 @@
                         <li>控制器</li>
                         <li><a target="_blank" href="laraveldemo/l_db">数据层</a></li>
                         <li><a target="_blank" href="laraveldemo/l_cache">Cache</a></li>
+
+                        <li><a target="_blank" href="laraveldemo/l_cache">自动生成用户授权</a></li>
+
+                        <li><a target="_blank" href="http://labs.infyom.com/">自动生成增删改查</a></li>
+                        <li><a target="_blank" href="{{url('/apples')}}">增删改查例子</a></li>
+                        <li><a target="_blank" href="laraveldemo/l_cache">组装更多的特性</a></li>
+
                     </ol>
                 </div>
                 <div class="col-sm-4">
