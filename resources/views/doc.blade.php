@@ -26,6 +26,7 @@
                         <li>路由</li>
                         <li>控制器</li>
                         <li>数据层</li>
+                        <li><a target="_blank" href="laraveldemo/l_cache">Cache</a></li>
                     </ol>
                 </div>
                 <div class="col-sm-4">
