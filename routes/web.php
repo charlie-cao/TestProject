@@ -50,3 +50,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::resource('apples', 'AppleController');
+
+Route::resource('notes', 'noteController');

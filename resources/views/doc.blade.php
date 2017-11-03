@@ -153,6 +153,7 @@
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
             @include('block.doclist')
             @include('block.suggest')
+            @include('block.lib')
         </div>
     </div>
 </div>

@@ -33549,7 +33549,7 @@ var getStyles = function( elem ) {
 
 ( function() {
 
-	// Executing both pixelPosition & boxSizingReliable tests require only one layouts
+	// Executing both pixelPosition & boxSizingReliable tests require only one layout
 	// so they're executed at the same time to save the second computation.
 	function computeStyleTests() {
 
@@ -51273,7 +51273,7 @@ if (true) {
  * Future:
  * - Restore document/overflow scroll positions that were unintentionally
  *   modified via DOM insertions above the top viewport boundary.
- * - Implement/integrate with customized constraint based layouts system and keep
+ * - Implement/integrate with customized constraint based layout system and keep
  *   track of which dimensions must be remeasured.
  *
  * @class ReactReconcileTransaction
@@ -52634,8 +52634,8 @@ var KeyboardEventInterface = {
     // `keyCode` is the result of a KeyDown/Up event and represents the value of
     // physical keyboard key.
 
-    // The actual meaning of the value depends on the users' keyboard layouts
-    // which cannot be detected. Assuming that it is a US keyboard layouts
+    // The actual meaning of the value depends on the users' keyboard layout
+    // which cannot be detected. Assuming that it is a US keyboard layout
     // provides a surprisingly accurate mapping for US and European users.
     // Due to this, it is left to the user to implement at this time.
     if (event.type === 'keydown' || event.type === 'keyup') {
@@ -52708,7 +52708,7 @@ var normalizeKey = {
 
 /**
  * Translation from legacy `keyCode` to HTML5 `key`
- * Only special keys supported, all others depend on keyboard layouts or browser
+ * Only special keys supported, all others depend on keyboard layout or browser
  * @see https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent#Key_names
  */
 var translateToKey = {
@@ -52776,7 +52776,7 @@ function getEventKey(nativeEvent) {
     return charCode === 13 ? 'Enter' : String.fromCharCode(charCode);
   }
   if (nativeEvent.type === 'keydown' || nativeEvent.type === 'keyup') {
-    // While user keyboard layouts determines the actual meaning of each
+    // While user keyboard layout determines the actual meaning of each
     // `keyCode` value, almost all function keys have a universal value.
     return translateToKey[nativeEvent.keyCode] || 'Unidentified';
   }
