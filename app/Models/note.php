@@ -27,7 +27,9 @@ class note extends Model
     public $fillable = [
         'title',
         'content',
-        'auth'
+        'link',
+        'auth',
+        'uid'
     ];
 
     /**
@@ -38,6 +40,7 @@ class note extends Model
     protected $casts = [
         'title' => 'string',
         'content' => 'string',
+        'link' => 'string',
         'auth' => 'string'
     ];
 

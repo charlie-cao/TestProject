@@ -165,6 +165,8 @@ class LaravelDemoController extends Controller
 
         $users = DB::table('user')->paginate(3);
 
+
+
         return view('laravel_demo.l_db',['msg'=>$msg,'userss'=>$users]);
     }
 

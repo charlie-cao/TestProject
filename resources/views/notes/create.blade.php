@@ -4,7 +4,10 @@
     <section class="content-header">
         <h1>
             Note
-        </h1>
+        </h1>当前用户名
+        {{Auth::user()->name}}
+        当前用户ID
+        {{Auth::user()->id}}
     </section>
     <div class="content">
         @include('adminlte-templates::common.errors')

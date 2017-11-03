@@ -11,6 +11,9 @@ use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
 
+
+use Illuminate\Support\Facades\Auth;
+
 class noteController extends AppBaseController
 {
     /** @var  noteRepository */
@@ -18,6 +21,8 @@ class noteController extends AppBaseController
 
     public function __construct(noteRepository $noteRepo)
     {
+
+
         $this->noteRepository = $noteRepo;
     }
 
@@ -29,8 +34,13 @@ class noteController extends AppBaseController
      */
     public function index(Request $request)
     {
+        if (!Auth::check()) {
+            // 用户已登录...
+            echo "请先登录系统";
+        }
+
         $this->noteRepository->pushCriteria(new RequestCriteria($request));
-        $notes = $this->noteRepository->all();
+        $notes = $this->noteRepository->findWhere(["uid"=>Auth::id()]);
 
         return view('notes.index')
             ->with('notes', $notes);
@@ -43,6 +53,7 @@ class noteController extends AppBaseController
      */
     public function create()
     {
+
         return view('notes.create');
     }
 
@@ -55,7 +66,11 @@ class noteController extends AppBaseController
      */
     public function store(CreatenoteRequest $request)
     {
+//        if()
         $input = $request->all();
+        //创建时增加用户ID
+        $input['uid']= Auth::id();;
+
 
         $note = $this->noteRepository->create($input);
 

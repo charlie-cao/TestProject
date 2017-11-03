@@ -93,6 +93,12 @@
                 <li>默认的laravel增加了bootstrop-sass 的支持，可以直接用sass语法写样式了。 2017/10/31</li>
                 <li>laravel 的 mix 工具包绝对是个前端好东西，封装了前端 webpake，sass，Grunt，Browsersync 等工具，神一样的存在。2017/10/31</li>
             </ol>
+            <h4>笔记 </h4><a href="{{url('/notes/create')}}">添加笔记</a>
+            <ol>
+                @foreach ($notes as $note)
+                    <li>{{ $note->auth }} {{$note->title}}: {{$note->content}}  {{$note->created_at}} </li>
+                @endforeach
+            </ol>
             <h4>phpstorm 2017 快捷键和甜点 [mac 系统]</h4>
             <ul>
                 <li>查找文件 : 两次连击shift。</li>

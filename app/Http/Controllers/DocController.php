@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
+use App\Models\note;
 
 class DocController extends Controller
 {
@@ -14,9 +15,9 @@ class DocController extends Controller
      */
     public function index()
     {
-        $results = DB::select('select * from user where id = :id', ['id' => 1]);
-        return view('doc');
 
+        $notes = DB::select('select * from notes ');
+        return view('doc',['notes'=>$notes]);
     }
 
     public function vue()

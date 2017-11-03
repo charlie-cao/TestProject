@@ -15,6 +15,11 @@
     {!! Form::label('auth', 'Auth:') !!}
     {!! Form::text('auth', null, ['class' => 'form-control']) !!}
 </div>
+<!-- Auth Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('link', 'Link:') !!}
+    {!! Form::text('link', null, ['class' => 'form-control']) !!}
+</div>
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
