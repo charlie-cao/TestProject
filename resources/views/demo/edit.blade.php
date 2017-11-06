@@ -18,6 +18,16 @@
         }
 
     </style>
+    <link rel="stylesheet" type="text/css" href="{{asset('css/loading.css')}}">
+
+
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+        <div class="load_title">正在加载EDEvery<br><span>V0.1</span></div>
+    </div>
+
 
     <div class="container">
         <div class="row">
@@ -66,4 +76,21 @@
         }
 
     </script>
+
+    <script type="text/javascript">
+
+
+//        $('body').addClass('loaded').Chameleon({
+//            'current_item':'hoveralls',
+//            'json_url':'../Envato/items.json'
+//        });
+
+//
+//        $.setTimeout(function () {
+//            $('#loader-wrapper').remove();
+//        },1000);
+
+
+    </script>
+
 @stop
