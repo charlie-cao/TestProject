@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Redis;
 use App\Topic;
+use Illuminate\Support\Facades\Route;
 
 class LaravelDemoController extends Controller
 {
@@ -170,7 +171,16 @@ class LaravelDemoController extends Controller
         return view('laravel_demo.l_db',['msg'=>$msg,'userss'=>$users]);
     }
 
+    public function l_route()
+    {
+         $route = Route::current();
 
+         $name = Route::currentRouteName();
+
+         $action = Route::currentRouteAction();
+
+        return view('laravel_demo.l_route');
+    }
     public function sass()
     {
         return view('sass');

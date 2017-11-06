@@ -11,7 +11,8 @@ use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
 
-
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 
 class noteController extends AppBaseController
@@ -22,6 +23,10 @@ class noteController extends AppBaseController
     public function __construct(noteRepository $noteRepo)
     {
 
+
+            $local = Session::get('local');
+//            var_dump($local);
+            App::setLocale($local);
 
         $this->noteRepository = $noteRepo;
     }

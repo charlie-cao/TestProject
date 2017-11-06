@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', '试验田') }}</title>
+    <title>{{ config('app.name', 'MDEvery') }}</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -29,40 +29,23 @@
                 </button>
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/doc') }}">
-                    {{ trans('app.title') }}
+                <a class="navbar-brand" href="{{ url('doc/home') }}">
+                    MDEvery
                 </a>
             </div>
 
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
-
                 <!-- Left Side Of Navbar -->
-
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ asset('doc')}}">试验场 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="{{ url('notes')}}">笔记本</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">发现 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">提问</a></li>
-                            <li><a href="#">工作</a></li>
-                            <li><a href="#">成员</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">认证</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">友情链接</a></li>
-                        </ul>
-                    </li>
-
-
+                    <li class="active" ><a href="{{ url('doc/home')}}">发现</a></li>
+                    <li><a href="{{ url('doc/my')}}">我的</a></li>
                 </ul>
                 <form class="navbar-form navbar-left">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="问点什么呢">
+                        <input type="text" class="form-control" placeholder="搜点啥呢">
                     </div>
-                    <button type="submit" class="btn btn-default">搜索笔记</button>
+                    <button type="submit" class="btn btn-default">搜索</button>
                 </form>
 
 
@@ -70,8 +53,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
                     @guest
-                    <li><a href="{{ route('login') }}">Login</a></li>
-                    <li><a href="{{ route('register') }}">Register</a></li>
+                    <li><a href="{{ route('login') }}">登录</a></li>
+                    <li><a href="{{ route('register') }}">注册新账户</a></li>
                     @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
@@ -95,14 +78,6 @@
                             </ul>
                         </li>
                         @endguest
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                               aria-expanded="false">语言 <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="{{url('doc/?local=zh_cn')}}">中文</a></li>
-                                <li><a href="{{url('doc/?local=en')}}">EN</a></li>
-                            </ul>
-                        </li>
                 </ul>
             </div>
         </div>
