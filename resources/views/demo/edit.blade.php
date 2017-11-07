@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/loading.css')}}">
 
 
-    <div id="loader-wrapper">
+    <div id="loader-wrapper" style="display: none">
         <div id="loader"></div>
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
@@ -68,6 +68,7 @@
         </div>
     </div>
     <script>
+
         function convert() {
             var text = document.getElementById("oriContent").value;
             var converter = new showdown.Converter();

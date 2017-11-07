@@ -8,10 +8,11 @@
                     <a href="{{url('doc/my')}}" class="list-group-item active">文章</a>
                     <a href="{{url('doc/myf')}}" class="list-group-item">收藏</a>
 
-                    <a href="#" class="list-group-item">收藏</a>
-                    <a href="#" class="list-group-item">收藏</a>
-                    <a href="#" class="list-group-item">收藏</a>
-                    <a href="#" class="list-group-item">收藏</a>
+                    <a href="#" class="list-group-item">众筹</a>
+                    <a href="#" class="list-group-item">资管</a>
+                    <a href="#" class="list-group-item"></a>
+                    <a href="#" class="list-group-item">简历</a>
+                    <a href="#" class="list-group-item">工作</a>
                 </div>
 
             </div>
