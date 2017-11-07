@@ -74,17 +74,19 @@
                         </ol>
                     </div>
                     <div class="col-sm-4">
-                        <h4>性能</h4>
+                        <h4>静态页面生成器</h4>
                         <ol>
-                            <li>工具</li>
-                            <li>最佳实践</li>
+                            <li>hugo</li>
+                            <li>hexo</li>
+                            <li>jekyll</li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
-                        <h4>协作</h4>
+                        <h4>持续集成</h4>
                         <ol>
-                            <li>工具</li>
-                            <li>最佳实践</li>
+                            <li>Git Hub</li>
+                            <li>Git Book</li>
+                            <li>Git CI</li>
                         </ol>
                     </div>
                 </div>
