@@ -53,17 +53,19 @@
                     <div class="col-sm-4">
                         <h4>重点话题</h4>
                         <ol>
-                            <li>持续集成</li>
-                            <li>自动化测试</li>
-                            <li>文档自动分析</li>
-                            <li>系统日志</li>
-                            <li>分布式系统</li>
-                            <li>大数据接口</li>
-                            <li>人工智能接口</li>
-                            <li>IDE使用</li>
-                            <li>团队管理技巧</li>
-                            <li>源码管理技巧</li>
-                            <li>已有资源接入</li>
+                            <li>持续集成 https://travis-ci.org/</li>
+                            <li>自动化测试 https://codecov.io</li>
+                            <li>文档自动分析 https://www.gitbook.com</li>
+                            <li>系统生存日志 google的那一套或者baidu的吧</li>
+                            <li>bug管理 github</li>
+
+                            <li>分布式系统 CDN</li>
+                            <li>大数据接口 【开放接口】</li>
+                            <li>人工智能接口【开放接口】</li>
+                            <li>IDE使用 【storm系列】</li>
+                            <li>团队管理技巧 【敏捷】</li>
+                            <li>源码管理技巧 【git】</li>
+                            <li>已有资源接入 【这个话题太大了】</li>
                         </ol>
                     </div>
                 </div>
@@ -93,6 +95,25 @@
                             <li>Git CI</li>
                             <li>Git CI</li>
                             <li>Git CI</li>
+                        </ol>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <h4>各种规范</h4>
+                        <ol>
+                            <li>Stack Overflow Markdown 规范</li>
+                            <li>文案排版指北 </li>
+                            <li>提问的智慧</li>
+                            <li>Git CI</li>
+                            <li>Git CI</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>各种协议</h4>
+                        <ol>
+                            <li>「署名-非商业性使用」</li>
+                            <li>MIT </li>
+                            <li>XXX</li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -158,6 +179,33 @@
                             用户 -> Github -> 博客
                             用户 -> 知乎，SegmentFault -> { 博客 }
                     </div>
+                </div>
+                <div>
+
+                    git项目参与方法
+                    <a href="https://www.gitbook.com/book/ryancao/php-developer-prepares/details">
+                        参考
+                    </a>
+
+                    本项目在 Github 上维护，欢迎参与：https://github.com/zacao/php-developer-prepares。
+
+                    在 GitHub 上把本项目 fork 到自己的仓库，如 <your-username>/php-developer-prepares，然后 clone 到本地，并设置用户信息。
+                        $ git clone git@github.com:<your-username>/php-developer-prepares.git
+                            $ cd php-developer-prepares
+                            $ git config user.name "yourname"
+                            $ git config user.email "your email"
+                            修改代码后提交，并推送到自己的仓库。
+                            $ #do some change on the content
+                            $ git commit -am "Fix issue #1: change helo to hello"
+                            $ git push
+                            在 GitHub 网站上提交 pull request。
+                            定期使用项目仓库内容更新自己仓库内容。
+                            $ git remote add upstream https://github.com/zacao/php-developer-prepares
+                            $ git fetch upstream
+                            $ git checkout master
+                            $ git rebase upstream/master
+                            $ git push -f origin master
+
                 </div>
 
                 <a href="{{url('/notes/create')}}">添加笔记</a>
