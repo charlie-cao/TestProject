@@ -21,15 +21,15 @@ class DocController extends Controller
         //检查输入参数根据参数切换当前系统语言，并更新SESSION
         //参数怎么传入？SESSION怎么使用？
         //现在只对当前页起作用应该放在整个应用的入口位置，并且已经可以使用App
-        if (isset($_REQUEST['local'])) {
-            $local = $_REQUEST['local'];
-            Session::put('local', $local);
-            App::setLocale($local);
-            Session::save();
-        } elseif (Session::get('local')) {
-            $local = Session::get('local');
-            App::setLocale($local);
-        }
+//        if (isset($_REQUEST['local'])) {
+//            $local = $_REQUEST['local'];
+//            Session::put('local', $local);
+//            App::setLocale($local);
+//            Session::save();
+//        } elseif (Session::get('local')) {
+//            $local = Session::get('local');
+//            App::setLocale($local);
+//        }
 
 
         $notes = DB::select('select * from notes ');

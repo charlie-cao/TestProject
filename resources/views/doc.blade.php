@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <div class="container">
         <div class="blog-header">
             <h1 class="blog-title">2018 WEB技术试验场</h1>
@@ -44,6 +45,9 @@
                             <li><a target="_blank" href="laraveldemo/l_vue">VUE单页程序</a></li>
                             <li>好用的模版</li>
                             <li>php7上传进度</li>
+                            <li>http://fontawesome.io/</li>
+                            <li>http://www.bootcdn.cn/font-awesome/</li>
+                            <li>http://www.gettemplate.com/</li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -87,7 +91,72 @@
                             <li>Git Hub</li>
                             <li>Git Book</li>
                             <li>Git CI</li>
+                            <li>Git CI</li>
+                            <li>Git CI</li>
                         </ol>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>CDN</h4>
+                        <ol>
+                            <li>http://www.bootcdn.cn/font-awesome/</li>
+                            <li>又拍云CDN http://www.bootcdn.cn/</li>
+                            <li>百度CDN http://cdn.code.baidu.com/</li>
+                            <li>淘宝CDN</li>
+                            <li>腾讯CDN</li>
+                            <li>九牛CDN https://www.staticfile.org/</li>
+                            <li>Sina CDN http://lib.sinaapp.com/</li>
+                        </ol>
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <h4>社会化网络</h4>
+                        <ol>
+                            <li><i class="fa fa-github"></i>Github：https://github.com/pplboy</li>
+
+                            <li><i class="fa fa-linkedin"></i>LinkIn：http://cn.linkedin.com/in/pplboy</li>
+
+                            <li><i class="fa fa-linkedin"></i>简书：http://www.jianshu.com/u/773f33ffa8d9</li>
+
+                            <li><i class="fa fa-linkedin"></i>豆瓣：https://www.douban.com/people/169342722/</li>
+
+                            <li><i class="fa fa-linkedin"></i>SementFault：https://segmentfault.com/u/charlie_cao</li>
+
+                            <li><i class="fa fa-linkedin"></i>Twitter：https://twitter.com/pplboy</li>
+
+                            <li><i class="fa fa-linkedin"></i>Instagram：https://www.instagram.com/pplboy</li>
+
+                            <li><i class="fa fa-facebook"></i>FaceBook：https://www.facebook.com/pplboy</li>
+
+                            <li><i class="fa fa-linkedin"></i>知乎：https://www.zhihu.com/people/charlie_cao</li>
+
+                            <li><i class="fa fa-linkedin"></i>微博：http://weibo.com/charlie19817</li>
+
+                        </ol>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>头条</h4>
+                        <ol>
+                            <li>开发者头条</li>
+
+                            <li>极客头条</li>
+
+                            <li> 掘金稀土</li>
+
+                            <li>CocoaChina</li>
+
+                            <li>稀土掘金</li>
+
+                            <li>伯乐在线</li>
+                        </ol>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <h4>平台互通</h4>
+                            用户 -> SEO搜索 { 谷歌，百度，必应 } -> 博客 -> { Weibo，Github，Twitter，Facebook }
+                            用户 -> 微博 -> { 博客，Instagram }
+                            用户 -> Github -> 博客
+                            用户 -> 知乎，SegmentFault -> { 博客 }
                     </div>
                 </div>
 

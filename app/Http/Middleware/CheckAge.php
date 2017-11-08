@@ -18,11 +18,11 @@ class CheckAge
 //        if ($request->age <= 200) {
 //            return redirect('home');
 //        }
-        echo "midW".$param;
-//        dd($request);
-        echo $request->route()->getActionName();
-
-        //$response
+//        echo "midW".$param;
+////        dd($request);
+//        echo $request->route()->getActionName();
+//
+//        //$response
         return $next($request);
     }
     public function terminate($request, $response)
