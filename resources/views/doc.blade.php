@@ -66,6 +66,8 @@
                             <li>团队管理技巧 【敏捷】</li>
                             <li>源码管理技巧 【git】</li>
                             <li>已有资源接入 【这个话题太大了】</li>
+                            <li>Rest接口文档工具 https://app.apiary.io/caolei/editor</li>
+                            <li>IT公司管理规范 http://open.leancloud.cn/</li>
                         </ol>
                     </div>
                 </div>
@@ -189,8 +191,8 @@
 
                     本项目在 Github 上维护，欢迎参与：https://github.com/zacao/php-developer-prepares。
 
-                    在 GitHub 上把本项目 fork 到自己的仓库，如 <your-username>/php-developer-prepares，然后 clone 到本地，并设置用户信息。
-                        $ git clone git@github.com:<your-username>/php-developer-prepares.git
+                    在 GitHub 上把本项目 fork 到自己的仓库，如 your-username>/php-developer-prepares，然后 clone 到本地，并设置用户信息。
+                        $ git clone git@github.com:your-username/php-developer-prepares.git
                             $ cd php-developer-prepares
                             $ git config user.name "yourname"
                             $ git config user.email "your email"
@@ -207,6 +209,55 @@
                             $ git push -f origin master
 
                 </div>
+
+                <pre>
+                    用ptyhon写一个个人内容管理工具
+
+
+这个工具基于 tag 进行内容分类和检索
+
+内容可以选择各种输入类型
+
+比如链接 文本 音频 重要日期等等
+
+这个系统基于 github 管理 并使用 git生态链中的工具自动化生成
+
+比如，平时看到比较好的链接
+
+就选择 链接模式，输入文本，链接，标签，标签可以包含为什么寻找到这个链接的关键字
+
+再比如 每天需要写日记
+就选择 日记，输入标题，日记内容，标签，标签可以归类日记形成日记本
+
+再比如 需要记住重要人的生日
+就选择 重要时间， 输入 时间，备注，标签，自动打上重要时间标签
+
+再比如 需要记下日更的身体状态
+再比如 需要记下各种系统的密码
+再比如 需要记下资产状况
+再比如 需要记下读后感
+https://ryancao.gitbooks.io/php-developer-prepares/content/preface/cross-the-gfw.html
+
+提交的同时，本地缓存一个无格式的文档数据库中，并在合适的时候【比如有wifi】自动上传进入git个人home
+定期的本地内容会pull出去，防止本地爆掉。
+
+为通过github托管的这个库增加一个生态工具
+可以通过站点查看自己所有的内容，并管理内容生成自动化的比如 gitbook，gitlist ，git日更之类的展现，可评论，可分享，加入社会化属性，
+
+有的内容可以做版本控制，有的内容可以合并别人的提交。
+
+一切的入口，通过一个跨平台的应用简单构成，核心使用python来调用各种工具。
+
+并且暴露出接口，为各种内容管理工具提供插件，让内容管理工具变成客户端。
+
+人类历史上的真正的大数据汇集，相当于网络人脑的存储空间。
+
+这也算是一种计算机神经网络吧。
+
+太有意思了。可以考虑做做。。。。。
+
+
+                </pre>
 
                 <a href="{{url('/notes/create')}}">添加笔记</a>
 
