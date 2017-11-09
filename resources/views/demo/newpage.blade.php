@@ -19,6 +19,8 @@
     </style>
 </head>
 <body>
+
+
     <nav class="navbar navbar-expand-md no-gutters">
         <div class="col-3 text-left">
             <a href="https://www.froala.com">
@@ -68,7 +70,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-10">
                                 <h1>这是一个测试</h1>
-                                <p class="text-h3">使用这一套块元素快速的开展一个 laravel项目是个不错的想法</p>
+                                <p class="text-h3">使用这一套块元素快速的开展一个 laravel项目是个不错的</p>
                             </div>
                         </div>
                         <div class="row justify-content-center mt-4">
