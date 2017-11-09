@@ -110,4 +110,8 @@ class DocController extends Controller
 
     }
 
+    public function newpage(){
+        return view('demo.newpage');
+    }
+
 }

@@ -48,6 +48,8 @@
                             <li>http://fontawesome.io/</li>
                             <li>http://www.bootcdn.cn/font-awesome/</li>
                             <li>http://www.gettemplate.com/</li>
+                            <li><a target="_blank" href="https://www.froala.com/design-blocks">Froala Desing Block</a></li>
+                            <li><a target="_blank" href="{{url('doc/newpage')}}">Froala Desing Block Demo</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">

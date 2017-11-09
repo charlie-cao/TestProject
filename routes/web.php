@@ -31,6 +31,10 @@ Route::get('/doc/myf', 'DocController@myf');
 Route::get('/doc/read', 'DocController@read');
 Route::get('/doc/edit', 'DocController@edit');
 
+
+
+Route::get('/doc/newpage', 'DocController@newpage');
+
 //定义参数的路由
 Route::get('/doc/woo/{id}/aaa/{bbb}',function ($id,$BBB='abc'){
     echo $url = route('profile',['id'=>3333,'bbb'=>'eeee']);
@@ -66,5 +70,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('apples', 'AppleController');
 
 Route::resource('notes', 'noteController');
+
+
 
 
