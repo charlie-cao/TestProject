@@ -1,8 +1,10 @@
 <h4>
-    建议和意见
+    关于我
 </h4>
 <ol>
-    <li>Admin:Charlie</li>
-    <li>Email:charlie19817@gmail.com</li>
+    <li><a href="http://pplboy.github.io">Charlie.Cao</a></li>
+    <li><a href="mailto:charlie19817@gmail.com">charlie19817@gmail.com</a></li>
+    <li><a href="http://www.isqgame.com">QGame</a></li>
     <li>QQ:964870916</li>
+
 </ol>
