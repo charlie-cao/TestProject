@@ -104,12 +104,18 @@ class DocController extends Controller
 
     }
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function grunt()
     {
         return view('grunt');
 
     }
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function newpage(){
         return view('demo.newpage');
     }

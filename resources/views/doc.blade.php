@@ -10,7 +10,7 @@
             <div class="col-sm-8 blog-main">
                 <div class="row">
                     <div class="col-sm-4">
-                        <h4>Laravel特性</h4>
+                        <h4>Laravel</h4>
                         <ol>
                             <li>工作流</li>
                             <li><a target="_blank" href="{{ asset('laraveldemo/l_view') }}">模版</a></li>
@@ -26,7 +26,7 @@
                         </ol>
                     </div>
                     <div class="col-sm-4">
-                        <h4>前端特性</h4>
+                        <h4>前端</h4>
                         <ol>
                             <li>前端工作流</li>
                             <li><a target="_blank" href="laraveldemo/l_vue">VUE单页程序</a></li>
@@ -37,6 +37,9 @@
                             <li><a target="_blank" href="http://www.gettemplate.com/">GETTEMPLATE</a> </li>
                             <li><a target="_blank" href="https://www.froala.com/design-blocks">Froala Desing Block</a></li>
                             <li><a target="_blank" href="{{url('doc/newpage')}}">Froala Desing Block Demo</a></li>
+                            <li><a href="http://www.jqhtml.com/bootstraps-syntaxhigh/index.html">前端资源站点</a></li>
+                            <li><a href="http://www.codingdrama.com/bootstrap-markdown/">BOOTSTRAP-MARKDOWN</a></li>
+                            <li><a href="http://www.bootcss.com/p/bootstrap-wysiwyg/">BOOTSTRAP-WYSIWYG</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
