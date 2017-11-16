@@ -31,12 +31,15 @@
                             <li>前端工作流</li>
                             <li><a target="_blank" href="laraveldemo/l_vue">VUE单页程序</a></li>
                             <li><a target="_blank" href="https://wrapbootstrap.com/themes">好用的模版</a></li>
+                            <li><a target="_blank" href="http://www.mycodes.net/154/">源码之家</a></li>
                             <li><a target="_blank" href="https://www.froala.com/wysiwyg-editor/docs/server/php/image-upload">php7上传进度</a></li>
                             <li><a target="_blank" href="http://fontawesome.io/">FONTAWESOME</a></li>
                             <li><a target="_blank" href="http://www.bootcdn.cn/font-awesome/">FONT-AWESOME</a></li>
                             <li><a target="_blank" href="http://www.gettemplate.com/">GETTEMPLATE</a></li>
                             <li><a target="_blank" href="https://www.froala.com/design-blocks">Froala Desing Block</a></li>
                             <li><a target="_blank" href="http://ace.jeka.by/">ACE</a></li>
+                            <li><a target="_blank" href="http://webapplayers.com/inspinia_admin-v2.7.1/">inspinia_admin</a></li>
+                            <li><a target="_blank" href="http://win10ui.yuri2.cn/2.x.php">win10ui</a></li>
                             <li><a target="_blank" href="{{url('doc/newpage')}}">Froala Desing Block Demo</a></li>
                             <li><a href="http://www.jqhtml.com/bootstraps-syntaxhigh/index.html">前端资源站点</a></li>
                             <li><a href="http://www.codingdrama.com/bootstrap-markdown/">BOOTSTRAP-MARKDOWN</a></li>
