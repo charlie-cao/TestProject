@@ -1,0 +1,256 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.3
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:8889
+-- Generation Time: Nov 16, 2017 at 11:36 AM
+-- Server version: 5.6.35
+-- PHP Version: 7.1.8
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `laravel`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `apples`
+--
+
+CREATE TABLE `apples` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `msg` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `help` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `apples`
+--
+
+INSERT INTO `apples` (`id`, `title`, `msg`, `help`, `created_at`, `updated_at`, `deleted_at`) VALUES
+(1, 'aa', 'bb', 'cc', '2017-11-02 03:45:16', '2017-11-02 03:45:16', NULL),
+(2, 'wwe', 'wewe', 'bbb', '2017-11-02 03:45:29', '2017-11-02 03:45:29', NULL),
+(3, 'abcd', 'efg', 'hello', '2017-11-02 03:47:09', '2017-11-02 03:47:09', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `migrations`
+--
+
+CREATE TABLE `migrations` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `migration` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `batch` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `migrations`
+--
+
+INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
+(1, '2014_10_12_000000_create_users_table', 1),
+(2, '2014_10_12_100000_create_password_resets_table', 1),
+(3, '2017_11_02_101108_create_topics_table', 2),
+(4, '2017_11_02_114002_create_apples_table', 3),
+(5, '2017_11_03_045332_create_notes_table', 4),
+(6, '2017_11_03_052835_updateNote', 5),
+(7, '2017_11_03_054359_add_user_id_for_notes', 6);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `notes`
+--
+
+CREATE TABLE `notes` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `content` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `auth` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  `link` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `uid` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `notes`
+--
+
+INSERT INTO `notes` (`id`, `title`, `content`, `auth`, `created_at`, `updated_at`, `deleted_at`, `link`, `uid`) VALUES
+(2, 'mac', '解决mac下没有安装xcode，但是在larave下npm install 时需要安装 xcode问题的方法', 'caolei', '2017-11-02 21:20:51', '2017-11-02 21:36:27', NULL, 'http://www.baidu.com', 0),
+(8, '使用框架的常见问题', '1 框架前期快，但是代码固定，并且使用了很多设计模式，导致再不了解模式以及工作流程的时候修改就成了大问题。\r\n2 工作流不可忽视，有些东西不能改，有些东西可以修改，这个在框架使用中是让人抓狂的\r\n3 文档只是使用文档，实际上伴随着使用的深入，需要框架的运行文档支持，而这些文档基本上是没有的。\r\n4 所以设计框架的时候不能仅考虑个别需求。这样的框架就是死框架。', 'aa', '2017-11-03 00:22:53', '2017-11-03 00:22:53', NULL, 'aa', 2),
+(9, 'Session的问题', 'php标准的session在laravel中不能使用了，需要使用Session替代，发现各个版本都不一样，方法有两三种，并且还跟Session的加载机制有关。以及和路由有关。跨越页面后Session失效，Session保存不是及时的。Session的文档不完整。巨大的坑。', 'charlie', '2017-11-03 00:25:30', '2017-11-03 00:25:30', NULL, 'no', 2),
+(10, 'crud之后修改的问题', '1 如果需要增加或者修改一个字段。可以通过增加一个数据库迁移文件来实现。这部分文档有。\r\n2 修改crud的相关代码，模版代码，这部分文档没有。\r\n3 涉及到自动化生成的代码需要全看一边，只是修改一个字段。呵呵，这样的框架，有了还不如没有呢。', 'charlie', '2017-11-03 00:27:32', '2017-11-03 00:27:32', NULL, 'no', 2),
+(11, '组件安装后都发生了什么', '这个问题也比较困扰我，组件安装后，对系统产生了哪些影响，光看到一大把代码已经不知道被分散到什么地方去了。可能还会覆盖和影响其他的代码。还有一个比较坑的是，安装admin后貌似文件时间被全修改了，导致git需要提交所有的代码。巨坑。', 'charlie', '2017-11-03 00:29:30', '2017-11-03 00:29:30', NULL, 'no', 2),
+(12, '哪些组件好用哪些不好用', '这个框架的开发者不考虑去维护的话，只能把这个框架的所有问题丢给用户了。用户敢用么。', 'charlie', '2017-11-03 00:30:21', '2017-11-03 00:30:21', NULL, 'no', 2),
+(13, 'browersync', '使用browersync后不自动同步的原因是，html中内容没有写在正确的地方，比如在html标签外输出了', 'charlie', '2017-11-03 00:33:00', '2017-11-03 00:33:00', NULL, 'no', 2),
+(14, 'sass', '默认的laravel增加了bootstrop-sass 的支持，可以直接用sass语法写样式了', 'charlie', '2017-11-03 00:33:32', '2017-11-03 00:33:32', NULL, 'no', 2),
+(15, 'mix', 'laravel 的 mix 工具包绝对是个前端好东西，封装了前端 webpake，sass，Grunt，Browsersync 等工具，神一样的存在', 'charlie', '2017-11-03 00:33:54', '2017-11-03 00:33:54', NULL, 'no', 2),
+(16, 'phpstorm 2017 快捷键和甜点 [mac 系统]', '快速生成phpdoc：alt+enter\r\n查找文件 : 两次连击shift。\r\n格式化 : alt+command+l\r\n多行编辑 : 按住Alt键，再单击要编辑的位置。\r\n插入模版 : Settings>>Editor>>Live Templates $ENV_LOCALE$ date()\r\n删除空行 : command+r 选中 Match Case 和 Regex 搜索^\\n > 【Replace all】\r\nCtrl + G : 跳到当前打开文件的行，输入格式（行数:列数）\r\nCtrl + E : 打开最近编辑的文件列表\r\nCtrl + P : 显示函数的参数信息\r\nCtrl + Q : 快速打开函数的说明文档信息\r\nCtrl + 鼠标滑过 : 显示函数的简单参数信息\r\nCtrl + / : 注释或者取消注释选中的行\r\nCtrl + Shift + / : 注释或者取消注释选中的代码块\r\nCtrl + W : 选中光标所在的单词\r\nCtrl + Shift + W : 反选中光标所在的单词\r\nTab / Shift + Tab : 向右/向左缩进\r\nCtrl + X : 剪切当前行或者当前选中的内容块\r\nCtrl + C : 复制当前行或者当前选中的内容块\r\nCtrl + V : 粘贴剪切板的内容到当前位置\r\nCtrl + Shift + V : 从最近的剪切板选择内容粘贴到当前位置\r\nCtrl + D : 复制粘贴当前行或者当前选中内容\r\ncommand + delete : 删除光标所在行\r\nCtrl + Shift + J : 光标所在位置的下一行追加到本行末尾\r\nCtrl + Enter : 自动拆分行，自动缩进（光标在代码行首）\r\nShift + Enter : 自动新开下一行\r\nCtrl + Shift + U : 自动转换光标所在单词或者选中内容的大小写\r\nCtrl + Shift + ] / [ : 匹配代码块的首位结合地方\r\nCtrl + Delete : 删除光标所在位置到单词末尾的内容\r\nCtrl + Backspace : 删除光标所在位置到单词首位置的内容\r\nCtrl + NumPad+/- : 展开或者收缩代码块\r\nCtrl + Shift + NumPad+ : 展开所有代码块\r\nCtrl + Shift + NumPad- : 收缩所有代码块\r\nCtrl + F4 : 关闭当前文件\r\nCtrl + F : 根据关键词查找\r\nF3 : 查找下一个位置\r\nShift + F3 : 回到上一个查找位置\r\nCtrl + R : 替换\r\nCtrl + Shift + F : 在指定路径中查找\r\nCtrl + Shift + R : 在指定路径中替换\r\nAlt + F7 : 项目中查找当前光标所在函数的使用情况\r\nCtrl + F7 : 当前中查找当前光标所在函数的使用情况\r\nCtrl + Shift + F7 : 高亮当前函数在当前文件的使用情况\r\nCtrl + Alt + F7 : 展示当前函数在项目中的使用情况\r\nCtrl + Shift + N : 根据关键词查找当前项目中的文件路径（常用）\r\n项目树形列表中选中情况下:\r\nF5 : 复制当前选中\r\nF6 : 移动当前选中\r\nAlt + Delete : 安全删除当前选中\r\nShift + F6 : 重命名当前选中\r\n版本与历史\r\nAlt + BackQuote (`) : 快速打开版本管理\r\nCtrl + K : 提交当前项目到版本管理\r\nCtrl + T : 更新当前项目到版本管理\r\nAlt + Shift + C : 查看最近时间更改的情况', 'charlie', '2017-11-03 00:46:08', '2017-11-14 07:25:05', NULL, 'no', 2),
+(17, '我现在增加一个笔记', '笔记的内容是这个', 'hahah', '2017-11-09 02:51:37', '2017-11-09 02:51:37', NULL, 'nolink', 2),
+(18, '给三星的note3 刷了 魅族的系统，太爽', '这系统感觉飞快\r\n而且用户体验极好', 'charlie', '2017-11-15 01:32:15', '2017-11-15 01:32:15', NULL, 'no', 2),
+(19, 'mac执行git命令出现xcrun: error: invalid active developer path解决方法', 'mac执行git命令时候出现：\r\nxcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun\r\n\r\n解决方法：\r\n打开终端输入\r\nxcode-select --install\r\n回车后，系统弹出下载xcode，点击确认，下载完成后即可。（实际上不是下载xcode，可能下载xcode有关插件，下载时长约1分钟）\r\n\r\n出现这个错误原因猜想可能是因为之前安装过xcode卸载后出现的。', 'kedongjun', '2017-11-15 07:06:39', '2017-11-15 07:06:39', NULL, 'http://blog.csdn.net/kedongjun/article/details/51470506', 2),
+(20, '基于git为中心的网络生活管理', '基于git为中心的网络生活管理\r\n\r\n所有内容均上线，可追溯，可开源\r\n\r\ngit本身为一个顶级仓库，所有的项目均托管到git。\r\n\r\n试验田这个项目通过git的钩子做到自动化部署。当发布版本时触发。\r\n平时在支线上开发，服务器环境同本地开发环境同步。', 'charlie', '2017-11-16 02:24:30', '2017-11-16 02:24:30', NULL, 'nolink', 2),
+(21, '如何将 Laravel 数据表里的数据导出成 Seeder 文件', '需要能够将数据定期备份，使用laravel的 iseed插件来实现这种功能 参考链接\r\n\r\n开发者使用 Laravel 部署一个新项目的时候, 通常会使用 seeder 快速填充本地数据以方便开发调试.\r\n\r\niseed 扩展包提供了可将数据表里的数据直接转换为 seeder 文件的功能.', 'charlie', '2017-11-16 02:29:53', '2017-11-16 02:29:53', NULL, 'http://www.jianshu.com/p/bb077582d764', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `password_resets`
+--
+
+CREATE TABLE `password_resets` (
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `token` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `topics`
+--
+
+CREATE TABLE `topics` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `pass` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `content` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `pass` varchar(255) NOT NULL,
+  `c_time` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `name`, `pass`, `c_time`) VALUES
+(1, 'charlie', '2', '2017-10-30'),
+(2, 'tom1', 'tom', '0000-00-00'),
+(3, 'lili1', 'lili', '0000-00-00'),
+(4, 'tom', 'tom', '0000-00-00'),
+(5, 'lili', 'lili', '0000-00-00');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'caolei', 'caolei@test.com', '$2y$10$TlFIyNtI7vXb8D0OLmWK8OUdennhdpzKY03nmnqhwIIeSX96FlTsW', '6VzHKznUkJT72359YCfN36xXfs6RObtIc5NPgiB1f8AjeBdP3lQ9Vu3xkY49', '2017-11-02 03:07:26', '2017-11-02 03:07:26'),
+(2, 'test', 'test@test.com', '$2y$10$EddR5pk44n4ygg5vRk8QtORx02FobVQpj7xrlyXNWFLK40Ef5B1U6', '5tXJJ58JgeDgTzjrnDAy4yEGyrCLfnLPU254eqp6V1vkvKlf9ylo7jZtE77e', '2017-11-02 21:46:11', '2017-11-02 21:46:11'),
+(3, 'test2', 'test2@test.com', '$2y$10$KLW7UYl.kZHwdqyXZOTg..muk47yaQNBGpPyYHfZZbFqvwg9/1wXK', NULL, '2017-11-02 22:14:49', '2017-11-02 22:14:49'),
+(4, 'ronghua', 'ronghua@xxx.com', '$2y$10$Z3K9GQUpU2AE99D3RS9/IO3cFurxdrR.3aL4l4ew4pgdkFQxrR/.m', NULL, '2017-11-09 02:53:30', '2017-11-09 02:53:30');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `apples`
+--
+ALTER TABLE `apples`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `migrations`
+--
+ALTER TABLE `migrations`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `notes`
+--
+ALTER TABLE `notes`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `topics`
+--
+ALTER TABLE `topics`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `apples`
+--
+ALTER TABLE `apples`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+--
+-- AUTO_INCREMENT for table `migrations`
+--
+ALTER TABLE `migrations`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+--
+-- AUTO_INCREMENT for table `notes`
+--
+ALTER TABLE `notes`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+--
+-- AUTO_INCREMENT for table `topics`
+--
+ALTER TABLE `topics`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
