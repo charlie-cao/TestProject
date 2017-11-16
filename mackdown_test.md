@@ -68,3 +68,5 @@ See my [About](/about/) page for details.
 
 
 This is [an example][id] reference-style link.
+
+Use the `printf()` function.
