@@ -31,12 +31,51 @@
     站点
 </h4>
 <ol>
-    <li>QGame</li>
-    <li>空中全景网</li>
-    <li>汤勺</li>
+    <li><a href="http://www.isqgame.com">QGame</a></li>
+    <li><a href="http://v2.isqgame.com">空中全景网</a></li>
+    <li>闪记 跨平台基于markdown的多用户内容发布系统</li>
+    <li>汤勺 基于闪记的todolist</li>
+    <li>SNS API 提供点赞，评论，分享等基础功能</li>
     <li>试验田</li>
 </ol>
 
+<h4>
+    写作
+</h4>
+<ol>
+    <li>留给自己</li>
+
+</ol>
+<h4>
+    足迹
+</h4>
+<ol>
+    <li>深圳</li>
+    <li>海口</li>
+    <li>惠州</li>
+    <li>大连</li>
+    <li>青岛</li>
+    <li>厦门</li>
+    <li>上海</li>
+    <li>嘉兴</li>
+    <li>杭州</li>
+    <li>北京</li>
+    <li>南京</li>
+    <li>东京</li>
+    <li>大阪</li>
+    <li>京都</li>
+    <li>布里斯班</li>
+    <li>悉尼</li>
+    <li>墨尔本</li>
+    <li>塔斯马尼亚</li>
+</ol>
+<h4>
+    网络资产
+</h4>
+<ol>
+    <li>服务器</li>
+    <li>域名</li>
+</ol>
 <h4>
     我做过的项目
 </h4>
