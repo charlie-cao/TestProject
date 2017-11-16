@@ -45,7 +45,10 @@ class noteController extends AppBaseController
         }
 
         $this->noteRepository->pushCriteria(new RequestCriteria($request));
+        //增加排序规则
+        $this->noteRepository->orderBy("created_at","desc");
         $notes = $this->noteRepository->findWhere(["uid"=>Auth::id()]);
+
 
         return view('notes.index')
             ->with('notes', $notes);
