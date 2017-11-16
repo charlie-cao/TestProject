@@ -62,3 +62,9 @@ This is an H2
 
 
 <http://example.com/>
+
+
+See my [About](/about/) page for details.
+
+
+This is [an example][id] reference-style link.
