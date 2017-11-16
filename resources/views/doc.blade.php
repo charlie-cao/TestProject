@@ -34,7 +34,7 @@
                             <li><a target="_blank" href="https://www.froala.com/wysiwyg-editor/docs/server/php/image-upload">php7上传进度</a></li>
                             <li><a target="_blank" href="http://fontawesome.io/">FONTAWESOME</a></li>
                             <li><a target="_blank" href="http://www.bootcdn.cn/font-awesome/">FONT-AWESOME</a></li>
-                            <li><a target="_blank" href="http://www.gettemplate.com/">GETTEMPLATE</a> </li>
+                            <li><a target="_blank" href="http://www.gettemplate.com/">GETTEMPLATE</a></li>
                             <li><a target="_blank" href="https://www.froala.com/design-blocks">Froala Desing Block</a></li>
                             <li><a target="_blank" href="{{url('doc/newpage')}}">Froala Desing Block Demo</a></li>
                             <li><a href="http://www.jqhtml.com/bootstraps-syntaxhigh/index.html">前端资源站点</a></li>
@@ -45,12 +45,14 @@
                     <div class="col-sm-4">
                         <h4>重点话题</h4>
                         <ol>
-                            <li><a href="https://travis-ci.org/">持续集成</a> </li>
-                            <li><a href="https://codecov.io">自动化测试</a> </li>
-                            <li><a href="https://www.gitbook.com">文档自动分析</a> </li>
-                            <li>系统生存日志 google的那一套或者baidu的吧</li>
-                            <li>bug管理 github</li>
-                            <li>分布式系统 CDN</li>
+                            <li><a href="https://travis-ci.org/">持续集成</a></li>
+                            <li><a href="https://codecov.io">自动化测试</a></li>
+                            <li><a href="https://www.gitbook.com">文档自动分析</a></li>
+                            <li><a href="https://tongji.baidu.com/web/welcome/login">百度统计</a></li>
+                            <li><a href="https://tongji.baidu.com/web/welcome/login">Google统计 被墙了</a></li>
+                            <li><a href="https://www.bugzilla.org/">bugzilla</a></li>
+                            <li><a href="http://tool.chinaz.com/">站长工具</a></li>
+                            <li><a href="https://github.com/tqchen/tinyflow">分布式系统 CDN</a></li>
                             <li>大数据接口 【开放接口】</li>
                             <li>人工智能接口【开放接口】</li>
                             <li>IDE使用 【storm系列】</li>
@@ -58,7 +60,7 @@
                             <li>源码管理技巧 【git】</li>
                             <li>已有资源接入 【这个话题太大了】</li>
                             <li><a href="https://app.apiary.io/caolei/editor">Rest接口文档工具</a></li>
-                            <li><a href="http://open.leancloud.cn/">IT公司管理规范</a> </li>
+                            <li><a href="http://open.leancloud.cn/">IT公司管理规范</a></li>
                         </ol>
                     </div>
                 </div>
@@ -75,9 +77,12 @@
                     <div class="col-sm-4">
                         <h4>静态页面生成器</h4>
                         <ol>
-                            <li>hugo</li>
-                            <li>hexo</li>
-                            <li>jekyll</li>
+                            <li><a href="http://gohugo.io/">hugo</a></li>
+                            <li><a href="http://www.gohugo.org/">hugo 中文文档</a></li>
+                            <li><a href="https://hexo.io/">hexo</a></li>
+                            <li><a href="https://hexo.io/zh-cn/docs/">hexo 中文文档</a></li>
+                            <li><a href="https://jekyllrb.com/">jekyll</a></li>
+                            <li><a href="http://jekyll.com.cn/">jekyll 中文文档</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -94,7 +99,7 @@
                         <h4>各种规范</h4>
                         <ol>
                             <li>Stack Overflow Markdown 规范</li>
-                            <li>文案排版指北 </li>
+                            <li>文案排版指北</li>
                             <li>提问的智慧</li>
                         </ol>
                     </div>
@@ -102,7 +107,7 @@
                         <h4>各种协议</h4>
                         <ol>
                             <li>「署名-非商业性使用」</li>
-                            <li>MIT </li>
+                            <li>MIT</li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -122,16 +127,33 @@
                     <div class="col-sm-4">
                         <h4>社会化网络</h4>
                         <ol>
-                            <li><i class="fa fa-github"></i> <a target="_blank" href="https://github.com/pplboy">Github</a></li>
-                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="http://cn.linkedin.com/in/pplboy">LinkIn</a></li>
-                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="http://www.jianshu.com/u/773f33ffa8d9">简书</a></li>
-                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="https://www.douban.com/people/169342722/">豆瓣</a></li>
-                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="https://segmentfault.com/u/charlie_cao">SementFault</a></li>
-                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="https://twitter.com/pplboy">Twitter</a></li>
-                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="https://www.instagram.com/pplboy">Instagram</a></li>
-                            <li><i class="fa fa-facebook"></i> <a target="_blank" href="https://www.facebook.com/pplboy">FaceBook</a></li>
-                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="https://www.zhihu.com/people/charlie_cao">知乎</a></li>
-                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="http://weibo.com/charlie19817">微博</a></li>
+                            <li><i class="fa fa-github"></i> <a target="_blank"
+                                                                href="https://github.com/pplboy">Github</a></li>
+                            <li><i class="fa fa-linkedin"></i> <a target="_blank"
+                                                                  href="http://cn.linkedin.com/in/pplboy">LinkIn</a>
+                            </li>
+                            <li><i class="fa fa-linkedin"></i> <a target="_blank"
+                                                                  href="http://www.jianshu.com/u/773f33ffa8d9">简书</a>
+                            </li>
+                            <li><i class="fa fa-linkedin"></i> <a target="_blank"
+                                                                  href="https://www.douban.com/people/169342722/">豆瓣</a>
+                            </li>
+                            <li><i class="fa fa-linkedin"></i> <a target="_blank"
+                                                                  href="https://segmentfault.com/u/charlie_cao">SementFault</a>
+                            </li>
+                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="https://twitter.com/pplboy">Twitter</a>
+                            </li>
+                            <li><i class="fa fa-linkedin"></i> <a target="_blank"
+                                                                  href="https://www.instagram.com/pplboy">Instagram</a>
+                            </li>
+                            <li><i class="fa fa-facebook"></i> <a target="_blank"
+                                                                  href="https://www.facebook.com/pplboy">FaceBook</a>
+                            </li>
+                            <li><i class="fa fa-linkedin"></i> <a target="_blank"
+                                                                  href="https://www.zhihu.com/people/charlie_cao">知乎</a>
+                            </li>
+                            <li><i class="fa fa-linkedin"></i> <a target="_blank" href="http://weibo.com/charlie19817">微博</a>
+                            </li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -153,8 +175,52 @@
                             <li><a href="">TED</a></li>
                             <li><a href="">buffer.com</a></li>
                         </ol>
-                        
+
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h4>算法</h4>
+                        <ol>
+                            <li><a href="https://www.zhihu.com/question/20368410">算法站点</a></li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Hack</h4>
+                        <ol>
+                            <li><a href="https://wenku.baidu.com/view/87b3cffa581b6bd97e19ea48.html">黑客站点</a></li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>信仰和造物者</h4>
+                        <ol>
+                            <li><a href="">工程师</a></li>
+
+                        </ol>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h4>碎片</h4>
+                        <ol>
+                            <li>各种零碎</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>PPT</h4>
+                        <ol>
+                            <li></li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>脑图</h4>
+                        <ol>
+                            <li></li>
+
+                        </ol>
+                    </div>
+
                 </div>
 
                 <pre>
@@ -191,7 +257,7 @@ $ git fetch upstream
 $ git checkout master
 $ git rebase upstream/master
 $ git push -f origin master</pre>
-<pre>
+                <pre>
 <b>用ptyhon写一个个人内容管理工具</b>
 这个工具基于 tag 进行内容分类和检索
 内容可以选择各种输入类型
@@ -221,8 +287,8 @@ https://ryancao.gitbooks.io/php-developer-prepares/content/preface/cross-the-gfw
                 <a href="{{url('/notes/create')}}">添加笔记</a>
                 <ol>
                     <li>快捷键:大写所选 Command+Shift+U</li>
-                    <li>快捷键:选中内容之外生成标签 选中 Command+alt+t 输入 需要的标签 </li>
-                    <li>快捷键:表达式生成html标签 ol>li>h1> tab </li>
+                    <li>快捷键:选中内容之外生成标签 选中 Command+alt+t 输入 需要的标签</li>
+                    <li>快捷键:表达式生成html标签 ol>li>h1> tab</li>
                 </ol>
                 @foreach ($notes as $note)
                     <h4>{{$note->title}}
