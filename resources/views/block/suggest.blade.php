@@ -8,6 +8,36 @@
     <li>QQ:964870916</li>
 </ol>
 <h4>
+    技能
+</h4>
+<ol>
+    <li>PHP</li>
+    <li>ObjectC</li>
+    <li>JAVA</li>
+    <li>Javascript</li>
+    <li>Egret</li>
+    <li>Nodejs</li>
+    <li>React</li>
+    <li>Mysql</li>
+    <li>MongoDB</li>
+    <li>Python</li>
+    <li>Unity3D</li>
+    <li>Linux</li>
+    <li>MCSE</li>
+    <li>CCNA</li>
+</ol>
+
+<h4>
+    站点
+</h4>
+<ol>
+    <li>QGame</li>
+    <li>空中全景网</li>
+    <li>汤勺</li>
+    <li>试验田</li>
+</ol>
+
+<h4>
     我做过的项目
 </h4>
 <ol style="font-size: 4px;">
