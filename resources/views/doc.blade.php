@@ -54,6 +54,14 @@
                             <li><a href="https://pro.ant.design">pro.ant.design 老马牛大了 开箱即用的web后台系统</a></li>
                             <li><a href="https://electronjs.org/">electronjs.org</a></li>
                             <li><a href="https://segmentfault.com/a/1190000006207600">electronjs指南</a></li>
+                            <li><a href="https://mobile.ant.design/index-cn">支付宝移动组件库</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000006207600">微信移动组件库</a></li>
+                            <li><a href="https://mp.weixin.qq.com">微信小程序</a></li>
+                            <li><a href="http://developer.baidu.com/">百度开发者中心</a></li>
+                            <li><a href="http://developer.baidu.com/">腾讯开发者中心</a></li>
+                            <li><a href="http://developer.baidu.com/">阿里开发者中心</a></li>
+                            <li><a href="https://open.weixin.qq.com/">腾讯开放平台</a></li>
+                            <li><a href="http://www.easyicon.net/">简单图标搜索</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
