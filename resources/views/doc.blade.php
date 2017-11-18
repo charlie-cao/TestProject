@@ -44,6 +44,16 @@
                             <li><a href="http://www.jqhtml.com/bootstraps-syntaxhigh/index.html">前端资源站点</a></li>
                             <li><a href="http://www.codingdrama.com/bootstrap-markdown/">BOOTSTRAP-MARKDOWN</a></li>
                             <li><a href="http://www.bootcss.com/p/bootstrap-wysiwyg/">BOOTSTRAP-WYSIWYG</a></li>
+                            <li><a href="https://mp.weixin.qq.com/s/wxxGavmw5mH-Rhe4i7e8LA">ECMAScript 6</a></li>
+                            <li><a href="https://www.cnblogs.com/zfc2201/p/3452476.html">ECMAScript 7</a></li>
+                            <li><a href="http://m.blog.csdn.net/lihefei_coder/article/details/75068578">ECMAScript 8</a></li>
+                            <li><a href="https://zhuanlan.zhihu.com/p/29869797">21天造React</a></li>
+                            <li><a href="https://segmentfault.com/u/jinyunlong/articles?page=3">全栈REACT</a></li>
+                            <li><a href="https://segmentfault.com/u/jinyunlong/articles?page=3">全栈REACT</a></li>
+                            <li><a href="https://ant.design">ant.design 很完整的react web组件库</a></li>
+                            <li><a href="https://pro.ant.design">pro.ant.design 老马牛大了 开箱即用的web后台系统</a></li>
+                            <li><a href="https://electronjs.org/">electronjs.org</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000006207600">electronjs指南</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -193,6 +203,7 @@
                         <h4>Hack</h4>
                         <ol>
                             <li><a href="https://wenku.baidu.com/view/87b3cffa581b6bd97e19ea48.html">黑客站点</a></li>
+                            <li><a href="https://news.ycombinator.com/news">黑客新闻</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
