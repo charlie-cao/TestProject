@@ -23,6 +23,7 @@
                             <li><a target="_blank" href="{{url('/apples')}}">增删改查例子</a></li>
                             <li><a target="_blank" href="laraveldemo/l_cache">组装更多的特性</a></li>
                             <li><a target="_blank" href="doc/home">MDEveryDemo</a></li>
+                            <li><a target="_blank" href="https://appdividend.com/2017/08/31/laravel-5-5-reactjs-tutorial/">超级好的laravel + React例程</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -74,6 +75,7 @@
                                 react-bootstrap625
                                 ant.design380
                                 material-ui362</li>
+                            <li><a target="_blank" href="https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/">axios全攻略</a></li>
 
                         </ol>
                     </div>
