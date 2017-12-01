@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app_my')
 @section('content')
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <div class="container">
@@ -24,6 +24,90 @@
                             <li><a target="_blank" href="laraveldemo/l_cache">组装更多的特性</a></li>
                             <li><a target="_blank" href="doc/home">MDEveryDemo</a></li>
                             <li><a target="_blank" href="https://appdividend.com/2017/08/31/laravel-5-5-reactjs-tutorial/">超级好的laravel + React例程</a></li>
+                            <li><a target="_blank" href="https://laravel-china.org/topics/3188/vuejs-2-laravel-53-cors-cross-domain-resource-sharing-1">CORS 跨域资源共享</a></li>
+                            <li><a target="_blank" href="http://www.ruanyifeng.com/blog/2016/04/cors.html">跨域资源共享 CORS 详解</a></li>
+                            <li><a target="_blank" href="http://laravel-admin.org/">laravel-admin</a></li>
+                            <li><a target="_blank" href="http://laravelacademy.org/post/8029.html">数据库操作 —— 快速入门：基本配置和使用、读写分离 & 数据库事务</a></li>
+                            <li><a target="_blank" href="http://laravelacademy.org/post/7930.html">基于 Laravel 5.5 开发的适用于 API 开发的神器 —— laravel-smart</a></li>
+                            <li><a target="_blank" href="https://github.com/dingo">dingo 可以自动生成api文档【试了一下貌似不好使】</a></li>
+                            <li><a target="_blank" href="http://labs.infyom.com/laravelgenerator/">laravelgenerator</a></li>
+
+                            <li><a target="_blank" href="https://laravel-china.org/articles/3825/laravel-authentication-principle-and-full-custom-authentication">laravel用户认证模块原理</a></li>
+                            <li><a target="_blank" href="https://swagger.io/docs/specification/about/">接口定义</a></li>
+                            <li><a target="_blank" href="https://laravel-china.org/articles/3825/laravel-authentication-principle-and-full-custom-authentication">SESSION原理</a></li>
+                            <li><a target="_blank" href="https://www.swoole.com/">高性能Laravel Swoole</a></li>
+                            <li><a target="_blank" href="">性能</a></li>
+                            <li><a target="_blank" href="">扩展</a></li>
+                            <li><a target="_blank" href="">云平台</a></li>
+                            <li><a target="_blank" href="">自动任务</a></li>
+                        </ol>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>扩展问题</h4>
+                        <ol>
+                            <li><a target="_blank" href="https://www.cnblogs.com/xiaochaohuashengmi/archive/2011/04/24/2026559.html">服务器日志设置和分析，避免大日志文件当掉服务器</a></li>
+                            <li><a target="_blank" href="">PHP OpCache </a></li>
+                            <li><a target="_blank" href="">OAuth2 </a></li>
+                            <li><a target="_blank" href="">短信接口 </a></li>
+                            <li><a target="_blank" href="">分布式存储（CDN） </a></li>
+                            <li><a target="_blank" href="https://www.oschina.net/question/2896879_2212316">鸟哥惠新宸：PHP 7.1 的新特性我并不是很喜欢--认识到开发的本质，问题域 </a></li>
+                            <li><a target="_blank" href="http://www.jb51.net/article/59469.htm"> apache AB 性能重点概念 每秒访问数  每日IP数  </a></li>
+                            <li><a target="_blank" href="">SEO </a></li>
+                            <li><a target="_blank" href="http://www.laozuo.org/5503.html">Apache安全 </a></li>
+                            <li><a target="_blank" href="http://www.jb51.net/article/95832.htm">Ngix安全 </a></li>
+                            <li><a target="_blank" href="https://www.zhihu.com/question/21606800">web安全 </a></li>
+                            <li><a target="_blank" href="https://baike.baidu.com/item/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8B%92%E7%BB%9D%E6%9C%8D%E5%8A%A1%E6%94%BB%E5%87%BB/3802159?fr=aladdin&fromid=444572&fromtitle=DDOS">DDOS </a></li>
+                            <li><a target="_blank" href="https://www.zhihu.com/question/19581905">互联网创业公司如何防御 DDoS 攻击 </a></li>
+                            <li><a target="_blank" href="http://netsecurity.51cto.com/art/200811/97281.htm">Web安全测试之跨站请求伪造（CSRF） </a></li>
+                            <li><a target="_blank" href="http://www.jb51.net/article/95832.htm">防止机器人 </a></li>
+                            <li><a target="_blank" href="http://www.jb51.net/article/95832.htm">https </a></li>
+                            <li><a target="_blank" href="https://segmentfault.com/a/1190000008784051">使用Token认证 </a></li>
+                            <li><a target="_blank" href="https://www.cnblogs.com/2881064178dinfeng/p/6203391.html">[ Laravel 5.3 文档 ] 安全 ―― API认证（Passport）保障安全性。
+                                </a></li>
+                            <li><a href="http://www.jianshu.com/p/f670b37336ff">用vue.js和laravel实现微信授权登陆</a></li>
+                            <li><a href="http://www.jianshu.com/p/f670b37336ff">laravel-cors 解决跨域问题</a></li>
+                            <li><a href="https://www.cnblogs.com/5207/p/6297020.html">静态缓存中分页问题【百度】</a></li>
+                            <li><a href="https://www.cnblogs.com/lei2007/p/3837288.html">类似微博的分布式缓存问题【新浪】</a></li>
+                            <li><a href="https://www.cnblogs.com/ismallboy/p/5574006.html">数据库锁问题</a></li>
+                            <li><a href="https://www.cnblogs.com/richardcuick/p/6384122.html">TPS及计算方法</a></li>
+                            <li><a href="https://www.juhe.cn/docs">聚合数据</a></li>
+
+
+                            <li><a href="https://laravel-china.org/topics/2566/an-implementation-of-laravel-real-time-application">及时应用</a></li>
+                            <li><a href="http://www.jianshu.com/p/f670b37336ff">OpenNI</a></li>
+                            <li><a href="http://www.jianshu.com/p/f670b37336ff">大数据</a></li>
+                            <li><a href="http://tech.qq.com/a/20170414/040241.htm">人工智能</a></li>
+                            <li><a href="http://tech.qq.com/a/20170414/040241.htm">深度学习</a></li>
+                            <li><a href="http://tech.qq.com/a/20170414/040241.htm">语音识别</a></li>
+                            <li><a href="http://tech.qq.com/a/20170414/040241.htm">内容识别</a></li>
+                            <li><a href="http://www.jianshu.com/p/f670b37336ff">翻译</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000011620411">区块链</a></li>
+                            <li><a href="http://www.arcsoft.com.cn/ai/arcface.html?utm_source=baiduad&utm_medium=cpc">面部识别</a></li>
+
+                        </ol>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <h4>React</h4>
+                        <ol>
+                            <li>React 英文文档 中文文档</li>
+                            <li>React-Router 英文文档 中文文档</li>
+                            <li>React-Redux 英文文档 中文文档</li>
+                            <li>redux-saga <a href="https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html">英文文档</a> <a href="http://leonshi.com/redux-saga-in-chinese/docs/basics/UsingSagaHelpers.html">中文文档（没法看）</a></li>
+                            <li>create-react-app 英文文档 中文文档</li>
+                            <li>Dav 英文文档 中文文档</li>
+                            <li><a href="https://ant.design">ant.design 很完整的react web组件库</a></li>
+                            <li>react-bootstrap</li>
+                            <li>material-ui</li>
+                            <li>获取数据</li>
+                            <li>客户端存储</li>
+                            <li>脚手架</li>
+                            http://www.jianshu.com/p/e84493c7af35
+                            
+                            <li><a target="_blank" href="https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/">axios全攻略</a></li>
+                            <li><a target="_blank" href="https://segmentfault.com/q/1010000004053019">用户登录</a></li>
+                            <li><a href="https://pro.ant.design">pro.ant.design 老马牛大了 开箱即用的web后台系统</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -56,8 +140,6 @@
                             <li><a href="https://zhuanlan.zhihu.com/p/29869797">21天造React</a></li>
                             <li><a href="https://segmentfault.com/u/jinyunlong/articles?page=3">全栈REACT</a></li>
                             <li><a href="https://segmentfault.com/u/jinyunlong/articles?page=3">全栈REACT</a></li>
-                            <li><a href="https://ant.design">ant.design 很完整的react web组件库</a></li>
-                            <li><a href="https://pro.ant.design">pro.ant.design 老马牛大了 开箱即用的web后台系统</a></li>
                             <li><a href="https://electronjs.org/">electronjs.org</a></li>
                             <li><a href="https://segmentfault.com/a/1190000006207600">electronjs指南</a></li>
                             <li><a href="https://mobile.ant.design/index-cn">支付宝移动组件库</a></li>
@@ -71,12 +153,12 @@
                             <li><a href="http://www.iconfont.cn/">iconfont</a></li>
                             <li><a href="https://www.hotjar.com">hotjar把我想做的跨站点赞的插件做了:D基于Nodejs 和 React</a></li>
                             <li><a href="https://www.swoole.com/">php swoole</a></li>
-                            <li>推荐的三个React组件库
-                                react-bootstrap625
-                                ant.design380
-                                material-ui362</li>
-                            <li><a target="_blank" href="https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/">axios全攻略</a></li>
-
+                            <li><a href="http://less.bootcss.com/">less 参考</a></li>
+                            <li><a href="http://www.gruntjs.net/">Grunt</a></li>
+                            <li><a href="http://www.gulpjs.com.cn/">Glup</a></li>
+                            <li><a href="http://webpack.github.io/">webpack</a></li>
+                            <li><a href="http://www.jianshu.com/p/42e11515c10f">webpack 看这一篇就够了</a></li>
+                            <li><a href="https://www.cnblogs.com/willian/p/5603764.html">Grunt、gulp、webpack、不要听着高大上你就上，试试Codekit?</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -128,6 +210,8 @@
                             <li>Git Hub</li>
                             <li>Git Book</li>
                             <li>Git CI</li>
+                            <li><a href="https://yeasy.gitbooks.io">Docker</a></li>
+                            <li><a href="https://www.vagrantup.com/"> Vagrant  </a></li>
                         </ol>
                     </div>
                 </div>
@@ -248,7 +332,7 @@
                     <div class="col-sm-4">
                         <h4>PPT</h4>
                         <ol>
-                            <li></li>
+                            <li><a href="https://slides.com/">在线PPT slides</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -260,7 +344,31 @@
                     </div>
 
                 </div>
+<pre>
+    基本学习
+    laravel 创建基本应用
+    laravle + React构建单页应用(SPA)
+    laravle + Vue构建单页应用(SPA)
+    laravle + React + antd
+    用户登录授权
+    Oauth2
+    接口即服务
 
+    进阶学习
+    docker 构建统一开发部署环境 容器即服务
+    编辑器统一
+    版本管理
+    持续集成
+    文档支持 API + 应用方法
+
+    团队开发规范
+    开发扩展性
+
+    扩展，产品原型设计
+    软件质量，测试覆盖
+
+    这个系列的文章完成后可以灵活的构建web应用系统
+</pre>
                 <pre>
 <b>首页规划</b>
 首页三大区块，1 本项目目的区域，2 文档区域，3，解决的问题区域
