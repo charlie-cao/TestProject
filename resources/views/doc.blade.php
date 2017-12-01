@@ -82,6 +82,7 @@
                             <li><a href="http://tech.qq.com/a/20170414/040241.htm">语音识别</a></li>
                             <li><a href="http://tech.qq.com/a/20170414/040241.htm">内容识别</a></li>
                             <li><a href="http://baijiahao.baidu.com/s?id=1570416001078402&wfr=spider&for=pc">52个人工智能API</a></li>
+                            <li><a href="https://www.zhihu.com/question/50372376/answer/141373868">人工智能开放API，百度大脑和微软认知服务，哪个更好一些？</a></li>
                             <li><a href="http://www.jianshu.com/p/f670b37336ff">翻译</a></li>
                             <li><a href="https://segmentfault.com/a/1190000011620411">区块链</a></li>
                             <li><a href="http://www.arcsoft.com.cn/ai/arcface.html?utm_source=baiduad&utm_medium=cpc">面部识别</a></li>
