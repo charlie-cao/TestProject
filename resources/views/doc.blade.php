@@ -77,6 +77,7 @@
                             <li><a href="https://laravel-china.org/topics/2566/an-implementation-of-laravel-real-time-application">及时应用</a></li>
                             <li><a href="http://www.jianshu.com/p/f670b37336ff">OpenNI</a></li>
                             <li><a href="http://www.jianshu.com/p/f670b37336ff">大数据</a></li>
+                            <li><a href="https://www.zhihu.com/search?type=content&q=%E5%A4%A7%E6%95%B0%E6%8D%AE%20">大数据 呵呵</a></li>
                             <li><a href="http://tech.qq.com/a/20170414/040241.htm">人工智能</a></li>
                             <li><a href="http://tech.qq.com/a/20170414/040241.htm">深度学习</a></li>
                             <li><a href="http://tech.qq.com/a/20170414/040241.htm">语音识别</a></li>
@@ -112,6 +113,14 @@
                             <li><a href="https://pro.ant.design">pro.ant.design 老马牛大了 开箱即用的web后台系统</a></li>
                         </ol>
                     </div>
+                    <div class="col-sm-4">
+
+                        <h4>Vue</h4>
+                        <ol>
+                            <li><a href="https://vux.li/">vux.li</a></li>
+                        </ol>
+                    </div>
+
                     <div class="col-sm-4">
                         <h4>前端</h4>
                         <ol>
@@ -161,6 +170,8 @@
                             <li><a href="http://webpack.github.io/">webpack</a></li>
                             <li><a href="http://www.jianshu.com/p/42e11515c10f">webpack 看这一篇就够了</a></li>
                             <li><a href="https://www.cnblogs.com/willian/p/5603764.html">Grunt、gulp、webpack、不要听着高大上你就上，试试Codekit?</a></li>
+                            <li><a href="https://weex.apache.org/cn/playground.html">weex</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000011027225">网易严选App感受Weex开发</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -182,6 +193,8 @@
                             <li>已有资源接入 【这个话题太大了】</li>
                             <li><a href="https://app.apiary.io/caolei/editor">Rest接口文档工具</a></li>
                             <li><a href="http://open.leancloud.cn/">IT公司管理规范</a></li>
+                            <li><a href="https://docsify.js.org">docsify</a></li>
+                            <li><a href="https://docute.js.org/">docute</a></li>
                         </ol>
                     </div>
                 </div>
@@ -193,6 +206,12 @@
                             <li>curd后的修改</li>
                             <li>发布命令详解</li>
                             <li>运行环境的配置</li>
+                            <li><a href="https://vectormagic.com/">svg图标生成</a></li>
+                            <li><a href="http://simurai.com/archive/buttons/#markup">BonBon</a></li>
+                            <li><a href="http://www.bootcdn.cn/sweetalert/readme/">sweetalert</a></li>
+                            <li><a href="https://bjango.com/ios/istat/">bjango</a></li>
+                            <li><a href="http://flexboxgrid.com/">flexboxgrid</a></li>
+                            <li><a href="http://flexboxgrid.com/">normalize.css</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -300,6 +319,18 @@
                         </ol>
 
                     </div>
+                    <div class="col-sm-4">
+                        <h4>网络时代全球工作机会</h4>
+                        <ol>
+                            <li><a href="https://www.eventbrite.com/e/hangzhou-hiring-tournament-multiple-tech-roles-tickets-39220520633?aff=jarod">全球工作机会</a></li>
+                            <li><a href="">seek</a></li>
+                            <li><a href="https://jarodise.com/">数字游民部落</a></li>
+                            <li><a href="">buffer.com</a></li>
+                        </ol>
+
+                    </div>
+
+
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
