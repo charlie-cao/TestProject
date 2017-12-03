@@ -40,8 +40,43 @@
                             <li><a target="_blank" href="">扩展</a></li>
                             <li><a target="_blank" href="">云平台</a></li>
                             <li><a target="_blank" href="">自动任务</a></li>
+                            <li><a target="_blank" href="http://blog.csdn.net/j7lfhdxh/article/details/57419796">如何用docker安装laravel开发环境</a></li>
+                            <li><a target="_blank" href="http://www.jianshu.com/p/8e81968c5963">Laravel 下使用 Guzzle 编写多线程爬虫实战</a></li>
+                            <li><a target="_blank" href="https://laravel-china.org/articles/3701/goutte-a-simple-and-easy-to-use-php-reptile-library">Goutte 一个简单易用的 PHP 爬虫类库</a></li>
+                            <li><a target="_blank" href="https://laravel-china.org/topics/1402/laravel-timing-task">Laravel 定时任务</a></li>
+                            <li><a target="_blank" href="http://www.nginx.cn/doc/">
+                                    Nginx中文文档</a></li>
                         </ol>
 
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Docker</h4>
+                        <ol>
+                            <li>
+                            <li><a target="_blank" href="https://yq.aliyun.com/articles/63035?utm_campaign=wenzhang&utm_medium=article&utm_source=QQ-qun&utm_content=m_7538">大白话Docker入门（一）</a></li>
+                            <li><a target="_blank" href="http://dockone.io/article/395">基于Docker快速搭建多节点Hadoop集群</a></li>
+                            <li><a target="_blank" href="https://www.cnblogs.com/2018/archive/2015/08/02/4664432.html">docker中建立私有git服务器[gitlab]</a></li>
+                            <li>PaaS是Platform-as-a-Service的缩写，意思是平台即服务</li>
+                            <li><a href="https://www.zhihu.com/question/20387284">怎么理解 IaaS、SaaS 和 PaaS 的区别？</a></li>
+                            <li><a target="_blank" href="http://blog.csdn.net/qq_29245097/article/details/52996911?_t_t_t=0.22371753382246717">Docker+Git效率工作</a></li>
+<li><a href="http://www.cnblogs.com/2018/p/4654239.html">程序员的生产力始于需求而非工具</a></li>
+<li><a href="http://blog.csdn.net/u010705480/article/details/60578259">Docker适合应用于生产环境了吗?</a></li>
+<li><a href="http://blog.csdn.net/linuxnews/article/details/51626342">在生产环境使用Docker部署应用</a></li>
+<li><a href="http://www.hishenyi.com/archives/640">Docker生产环境架构讨论</a></li>
+<li><a href="http://www.infoq.com/cn/news/2015/06/jd-618-docker/">京东618：Docker扛大旗，弹性伸缩成重点</a></li>
+<li><a href="http://blog.csdn.net/u010246789/article/details/54234217">Docker实践(七)：Docker Hub(镜像分发、自动化构建)</a></li>
+<li><a href="http://www.cnblogs.com/felixzh/p/5194517.html">在CentOS 6上搭建私有的Docker Registry</a></li>
+<li><a href="https://www.cnblogs.com/felixzh/p/5194527.html">使用 Docker 建立 Mysql 集群</a></li>
+<li><a href="https://www.cnblogs.com/junneyang/p/5238333.html">【架构】docker环境搭建mysql主从</a></li>
+<li><a href="https://segmentfault.com/a/1190000004353368">docker搭建redis集群</a></li>
+<li><a href="https://segmentfault.com/a/1190000006907443">使用 Docker 一步搞定 ZooKeeper 集群的搭建</a></li>
+<li><a href="https://segmentfault.com/a/1190000006907443">使用 Docker 一步搞定 ZooKeeper 集群的搭建</a></li>
+<li><a href="http://blog.csdn.net/pmlpml/article/details/53698104">docker 集群（单主机）部署web 应用入门（Nginx）</a></li>
+<li><a href="https://www.myfreax.com/build-the-nginx-cluster-on-the-docker-swarm/">在Docker的swarm上构建Nginx集群</a></li>
+<li><a href="http://m.dockerinfo.net/4118.html">用Docker容器开发区块链应用</a></li>
+<li><a href="https://segmentfault.com/a/1190000010216732">docker安装openface进行人脸识别</a></li>
+                            <li>容器大幅减少了配置的过程</li>
+                        </ol>
                     </div>
                     <div class="col-sm-4">
                         <h4>扩展问题</h4>
@@ -118,9 +153,16 @@
                         <h4>Vue</h4>
                         <ol>
                             <li><a href="https://vux.li/">vux.li</a></li>
+                            <li><a href="http://blog.csdn.net/zgrkaka/article/details/53897202">vue 常用ui组件</a></li>
                         </ol>
                     </div>
+                    <div class="col-sm-4">
 
+                        <h4>JQuery</h4>
+                        <ol>
+                            <li><a href="http://www.htmleaf.com/">JQuery之家</a></li>
+                        </ol>
+                    </div>
                     <div class="col-sm-4">
                         <h4>前端</h4>
                         <ol>
