@@ -413,7 +413,8 @@
                             <li><a href="https://www.eventbrite.com/e/hangzhou-hiring-tournament-multiple-tech-roles-tickets-39220520633?aff=jarod">全球工作机会</a></li>
                             <li><a href="">seek</a></li>
                             <li><a href="https://jarodise.com/">数字游民部落</a></li>
-                            <li><a href="">buffer.com</a></li>
+                            <li><a href="">斯坦福大学的计算机科学公开课</a></li>
+                            <li><a href="">b站上的俩老外，学英语的好地方</a></li>
                         </ol>
                     </div>
                 </div>
