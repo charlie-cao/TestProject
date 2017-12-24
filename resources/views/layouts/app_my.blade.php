@@ -12,10 +12,19 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+        .fixednav {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            z-index: 1;
+        }
+    </style>
 </head>
 <body>
 <div id="app">
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav  class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
 
@@ -42,6 +51,8 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ asset('doc')}}">试验场 <span class="sr-only">(current)</span></a></li>
                     <li><a href="{{ url('notes')}}">笔记本</a></li>
+                    <li><a href="{{ url('web2018')}}">WEB 2018</a></li>
+                    <li><a href="{{ url('app2018')}}">APP 2018</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">发现 <span class="caret"></span></a>
@@ -119,5 +130,22 @@
 </footer>
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
+<script type="text/javascript">
+    $(function(){
+        //导航栏置顶
+        var nav=$(".navbar"); //得到导航对象
+        var win=$(window); //得到窗口对象
+        var sc=$(document);//得到document文档对象。
+        win.scroll(function(){
+            if(sc.scrollTop()>=100){
+                nav.addClass("fixednav");
+                $(".navTmp").fadeIn();
+            }else{
+                nav.removeClass("fixednav");
+                $(".navTmp").fadeOut();
+            }
+        })
+    })
+</script>
 </body>
 </html>

@@ -31,7 +31,6 @@
                             <li><a target="_blank" href="http://laravelacademy.org/post/7930.html">基于 Laravel 5.5 开发的适用于 API 开发的神器 —— laravel-smart</a></li>
                             <li><a target="_blank" href="https://github.com/dingo">dingo 可以自动生成api文档【试了一下貌似不好使】</a></li>
                             <li><a target="_blank" href="http://labs.infyom.com/laravelgenerator/">laravelgenerator</a></li>
-
                             <li><a target="_blank" href="https://laravel-china.org/articles/3825/laravel-authentication-principle-and-full-custom-authentication">laravel用户认证模块原理</a></li>
                             <li><a target="_blank" href="https://swagger.io/docs/specification/about/">接口定义</a></li>
                             <li><a target="_blank" href="https://laravel-china.org/articles/3825/laravel-authentication-principle-and-full-custom-authentication">SESSION原理</a></li>
@@ -44,37 +43,41 @@
                             <li><a target="_blank" href="http://www.jianshu.com/p/8e81968c5963">Laravel 下使用 Guzzle 编写多线程爬虫实战</a></li>
                             <li><a target="_blank" href="https://laravel-china.org/articles/3701/goutte-a-simple-and-easy-to-use-php-reptile-library">Goutte 一个简单易用的 PHP 爬虫类库</a></li>
                             <li><a target="_blank" href="https://laravel-china.org/topics/1402/laravel-timing-task">Laravel 定时任务</a></li>
-                            <li><a target="_blank" href="http://www.nginx.cn/doc/">
-                                    Nginx中文文档</a></li>
+                            <li><a target="_blank" href="http://www.nginx.cn/doc/">Nginx中文文档</a></li>
+                            <li><a target="_blank" href="http://www.nginx.cn/doc/">php-fpm</a></li>
+                            <li><a target="_blank" href="http://www.runoob.com/memcached/memcached-tutorial.html">Memcached</a></li>
+                            <li><a target="_blank" href="http://www.runoob.com/redis/redis-php.html">Redis中文文档</a></li>
+                            <li><a target="_blank" href="http://www.runoob.com/mongodb/mongodb-tutorial.html">mongodb</a></li>
+                                    
                         </ol>
-
                     </div>
                     <div class="col-sm-4">
                         <h4>Docker</h4>
                         <ol>
-                            <li>
                             <li><a target="_blank" href="https://yq.aliyun.com/articles/63035?utm_campaign=wenzhang&utm_medium=article&utm_source=QQ-qun&utm_content=m_7538">大白话Docker入门（一）</a></li>
                             <li><a target="_blank" href="http://dockone.io/article/395">基于Docker快速搭建多节点Hadoop集群</a></li>
                             <li><a target="_blank" href="https://www.cnblogs.com/2018/archive/2015/08/02/4664432.html">docker中建立私有git服务器[gitlab]</a></li>
                             <li>PaaS是Platform-as-a-Service的缩写，意思是平台即服务</li>
                             <li><a href="https://www.zhihu.com/question/20387284">怎么理解 IaaS、SaaS 和 PaaS 的区别？</a></li>
                             <li><a target="_blank" href="http://blog.csdn.net/qq_29245097/article/details/52996911?_t_t_t=0.22371753382246717">Docker+Git效率工作</a></li>
-<li><a href="http://www.cnblogs.com/2018/p/4654239.html">程序员的生产力始于需求而非工具</a></li>
-<li><a href="http://blog.csdn.net/u010705480/article/details/60578259">Docker适合应用于生产环境了吗?</a></li>
-<li><a href="http://blog.csdn.net/linuxnews/article/details/51626342">在生产环境使用Docker部署应用</a></li>
-<li><a href="http://www.hishenyi.com/archives/640">Docker生产环境架构讨论</a></li>
-<li><a href="http://www.infoq.com/cn/news/2015/06/jd-618-docker/">京东618：Docker扛大旗，弹性伸缩成重点</a></li>
-<li><a href="http://blog.csdn.net/u010246789/article/details/54234217">Docker实践(七)：Docker Hub(镜像分发、自动化构建)</a></li>
-<li><a href="http://www.cnblogs.com/felixzh/p/5194517.html">在CentOS 6上搭建私有的Docker Registry</a></li>
-<li><a href="https://www.cnblogs.com/felixzh/p/5194527.html">使用 Docker 建立 Mysql 集群</a></li>
-<li><a href="https://www.cnblogs.com/junneyang/p/5238333.html">【架构】docker环境搭建mysql主从</a></li>
-<li><a href="https://segmentfault.com/a/1190000004353368">docker搭建redis集群</a></li>
-<li><a href="https://segmentfault.com/a/1190000006907443">使用 Docker 一步搞定 ZooKeeper 集群的搭建</a></li>
-<li><a href="https://segmentfault.com/a/1190000006907443">使用 Docker 一步搞定 ZooKeeper 集群的搭建</a></li>
-<li><a href="http://blog.csdn.net/pmlpml/article/details/53698104">docker 集群（单主机）部署web 应用入门（Nginx）</a></li>
-<li><a href="https://www.myfreax.com/build-the-nginx-cluster-on-the-docker-swarm/">在Docker的swarm上构建Nginx集群</a></li>
-<li><a href="http://m.dockerinfo.net/4118.html">用Docker容器开发区块链应用</a></li>
-<li><a href="https://segmentfault.com/a/1190000010216732">docker安装openface进行人脸识别</a></li>
+                            <li><a href="http://www.cnblogs.com/2018/p/4654239.html">程序员的生产力始于需求而非工具</a></li>
+                            <li><a href="http://blog.csdn.net/u010705480/article/details/60578259">Docker适合应用于生产环境了吗?</a></li>
+                            <li><a href="http://blog.csdn.net/linuxnews/article/details/51626342">在生产环境使用Docker部署应用</a></li>
+                            <li><a href="http://www.hishenyi.com/archives/640">Docker生产环境架构讨论</a></li>
+                            <li><a href="http://www.infoq.com/cn/news/2015/06/jd-618-docker/">京东618：Docker扛大旗，弹性伸缩成重点</a></li>
+                            <li><a href="http://blog.csdn.net/u010246789/article/details/54234217">Docker实践(七)：Docker Hub(镜像分发、自动化构建)</a></li>
+                            <li><a href="http://www.cnblogs.com/felixzh/p/5194517.html">在CentOS 6上搭建私有的Docker Registry</a></li>
+                            <li><a href="https://www.cnblogs.com/felixzh/p/5194527.html">使用 Docker 建立 Mysql 集群</a></li>
+                            <li><a href="https://www.cnblogs.com/junneyang/p/5238333.html">【架构】docker环境搭建mysql主从</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000004353368">docker搭建redis集群</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000006907443">使用 Docker 一步搞定 ZooKeeper 集群的搭建</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000006907443">使用 Docker 一步搞定 ZooKeeper 集群的搭建</a></li>
+                            <li><a href="http://blog.csdn.net/pmlpml/article/details/53698104">docker 集群（单主机）部署web 应用入门（Nginx）</a></li>
+                            <li><a href="https://www.myfreax.com/build-the-nginx-cluster-on-the-docker-swarm/">在Docker的swarm上构建Nginx集群</a></li>
+                            <li><a href="http://m.dockerinfo.net/4118.html">用Docker容器开发区块链应用</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000010216732">docker安装openface进行人脸识别</a></li>
+                            <li><a href="http://www.runoob.com/docker/docker-image-usage.html">Docker 镜像使用</a></li>
+                            <li><a href="https://www.alpinelinux.org/about/">alpinelinux 微系统</a></li>
                             <li>容器大幅减少了配置的过程</li>
                         </ol>
                     </div>
@@ -107,8 +110,6 @@
                             <li><a href="https://www.cnblogs.com/ismallboy/p/5574006.html">数据库锁问题</a></li>
                             <li><a href="https://www.cnblogs.com/richardcuick/p/6384122.html">TPS及计算方法</a></li>
                             <li><a href="https://www.juhe.cn/docs">聚合数据</a></li>
-
-
                             <li><a href="https://laravel-china.org/topics/2566/an-implementation-of-laravel-real-time-application">及时应用</a></li>
                             <li><a href="http://www.jianshu.com/p/f670b37336ff">OpenNI</a></li>
                             <li><a href="http://www.jianshu.com/p/f670b37336ff">大数据</a></li>
@@ -122,11 +123,17 @@
                             <li><a href="http://www.jianshu.com/p/f670b37336ff">翻译</a></li>
                             <li><a href="https://segmentfault.com/a/1190000011620411">区块链</a></li>
                             <li><a href="http://www.arcsoft.com.cn/ai/arcface.html?utm_source=baiduad&utm_medium=cpc">面部识别</a></li>
-
+                        </ol>
+                    </div>
+                    <div>
+                        <h4>DevOps(Develop与Operations的缩写)</h4>
+                        <ol>
+                            <li><a href="https://baike.baidu.com/item/devops/2613029?fr=aladdin#7_1">logrotate</a></li>
+                            <li><a href="https://baike.baidu.com/item/devops/2613029?fr=aladdin#7_1">DevOps</a></li>
+                            <li><a href="http://os.51cto.com/art/201606/512423.htm">成功DevOps必备的20款顶级工具</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
-
                         <h4>React</h4>
                         <ol>
                             <li>React 英文文档 中文文档</li>
@@ -142,14 +149,12 @@
                             <li>客户端存储</li>
                             <li>脚手架</li>
                             http://www.jianshu.com/p/e84493c7af35
-                            
                             <li><a target="_blank" href="https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/">axios全攻略</a></li>
                             <li><a target="_blank" href="https://segmentfault.com/q/1010000004053019">用户登录</a></li>
                             <li><a href="https://pro.ant.design">pro.ant.design 老马牛大了 开箱即用的web后台系统</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
-
                         <h4>Vue</h4>
                         <ol>
                             <li><a href="https://vux.li/">vux.li</a></li>
@@ -157,12 +162,45 @@
                         </ol>
                     </div>
                     <div class="col-sm-4">
-
                         <h4>JQuery</h4>
                         <ol>
                             <li><a href="http://www.htmleaf.com/">JQuery之家</a></li>
                         </ol>
                     </div>
+                    <div class="col-sm-4">
+                        <h4>Angular</h4>
+                        <ol>
+                            <li><a href="https://angular.io/">angular</a></li>
+                        </ol>
+                    </div>  
+                    <div class="col-sm-4">
+                        <h4>游戏引擎</h4>
+                        <ol>
+                            <li><a href="">egret</a></li>
+                            <li><a href="">Cocos</a></li>
+                            <li><a href="">unity</a></li>
+                            <li><a href="">unreal</a></li>
+                        </ol>
+                    </div>                          
+                    <div class="col-sm-4">
+                        <h4>Typescript</h4>
+                        <ol>
+                            <li><a href="https://www.tslang.cn/samples/index.html">Typescript 中文网</a></li>
+                            <li><a href="TypeScript React">Typescript React</a></li>
+                            <li><a href="https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter">Typescript Vue</a></li>
+                            <li><a href="https://www.egret.com/">Egret</a></li>
+                        </ol>
+                    </div>   
+                    <div class="col-sm-4">
+                        <h4>ECMAScript</h4>
+                        <ol>
+                            <li><a href="http://es6.ruanyifeng.com/">ECMAScript 6 入门</a></li>
+                            <li><a href="http://www.jianshu.com/p/a138a525c287">ES7 and ES8 特性</a></li>
+                            <li><a href="https://www.zhihu.com/question/39993685">如何评价 ECMAScript 2016（ES7）只新增2个特性？</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000007116715">快速理解和使用 ES7 await/async</a></li>
+                            <li><a href="https://segmentfault.com/a/1190000010159725">重新认识ES6中的语法糖</a></li>
+                        </ol>
+                    </div>                     
                     <div class="col-sm-4">
                         <h4>前端</h4>
                         <ol>
@@ -214,6 +252,14 @@
                             <li><a href="https://www.cnblogs.com/willian/p/5603764.html">Grunt、gulp、webpack、不要听着高大上你就上，试试Codekit?</a></li>
                             <li><a href="https://weex.apache.org/cn/playground.html">weex</a></li>
                             <li><a href="https://segmentfault.com/a/1190000011027225">网易严选App感受Weex开发</a></li>
+                            <li><a href="http://www.foundcss.com/sites">foundcss</a></li>
+                            <li><a href="http://node-os.com/">node-os</a></li>
+                            <li><a href="http://blog.ywulin.com/201709102311.html">ywulin前端总结</a></li>
+                            <li><a href="http://framework7.cn/Index/index.html">framework7 比较完善好用的移动前端库</a></li>
+                            <li><a href="http://cordova.apache.org/">cordova</a></li>
+                            <li><a href="https://github.com/yawuling/vue-framework7">vue-framework7 的栗子，感觉性能略微比不用vue的差了一点</a></li>
+                            <li><a href="https://zhuanlan.zhihu.com/p/23503986">HTML5移动端交互——手势操作篇</a></li>
+                            <li><a href="http://www.jianshu.com/p/b8a6824c8e07">后台小白前端入门－－RequireJS</a></li>
                         </ol>
                     </div>
                     <div class="col-sm-4">
@@ -336,6 +382,7 @@
                             <li><i class="fa fa-linkedin"></i> <a target="_blank"
                                                                   href="https://www.zhihu.com/people/charlie_cao">知乎</a>
                             </li>
+                            <li><a href="https://xueqiu.com/6784378572">雪球</a></li>
                             <li><i class="fa fa-linkedin"></i> <a target="_blank" href="http://weibo.com/charlie19817">微博</a>
                             </li>
                         </ol>
@@ -359,7 +406,6 @@
                             <li><a href="">TED</a></li>
                             <li><a href="">buffer.com</a></li>
                         </ol>
-
                     </div>
                     <div class="col-sm-4">
                         <h4>网络时代全球工作机会</h4>
@@ -369,10 +415,7 @@
                             <li><a href="https://jarodise.com/">数字游民部落</a></li>
                             <li><a href="">buffer.com</a></li>
                         </ol>
-
                     </div>
-
-
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
@@ -392,10 +435,8 @@
                         <h4>信仰和造物者</h4>
                         <ol>
                             <li><a href="">工程师</a></li>
-
                         </ol>
                     </div>
-
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
@@ -414,10 +455,8 @@
                         <h4>脑图</h4>
                         <ol>
                             <li></li>
-
                         </ol>
                     </div>
-
                 </div>
 <pre>
     基本学习
@@ -428,20 +467,16 @@
     用户登录授权
     Oauth2
     接口即服务
-
     进阶学习
     docker 构建统一开发部署环境 容器即服务
     编辑器统一
     版本管理
     持续集成
     文档支持 API + 应用方法
-
     团队开发规范
     开发扩展性
-
     扩展，产品原型设计
     软件质量，测试覆盖
-
     这个系列的文章完成后可以灵活的构建web应用系统
 </pre>
                 <pre>
